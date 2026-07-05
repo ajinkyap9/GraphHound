@@ -94,51 +94,7 @@ GraphHound ingests **BloodHound JSON exports** from Active Directory environment
 
 ## 🏗️ Architecture
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                     BloodHound JSON Export                   │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│              Graph Ingestion & Path Enumeration              │
-│   Neo4j / NetworkX · Bounded depth-6 DFS · 3,405 nodes      │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│                  Feature Engineering (14 features)           │
-│  ATT&CK mapping · edge impact · prevalence · noise ·         │
-│  choke-point score · privilege exposure · path length        │
-└────────────────┬─────────────────────────┬───────────────────┘
-                 │                         │
-                 ▼                         ▼
-┌───────────────────────┐     ┌───────────────────────────────┐
-│   LightGBM Baseline   │     │  GNN (PyTorch Geometric)      │
-│   Tabular features    │     │  Graph-aware node embeddings  │
-│   Fast, interpretable │     │  GAT layers · global pooling  │
-└──────────┬────────────┘     └──────────────┬────────────────┘
-           │                                 │
-           └────────────────┬────────────────┘
-                            │
-                            ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    MLflow Experiment Tracking                │
-│          Precision@5 · Precision@10 · Lift · Recall@20%     │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│                FastAPI Backend                               │
-│     POST /upload  ·  GET /rank  ·  GET /remediate           │
-└──────────────────────────┬───────────────────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────────────────┐
-│          React + Cytoscape.js Dashboard                      │
-│  Upload panel · Ranked graph · Path list · Remediation panel │
-└──────────────────────────────────────────────────────────────┘
-```
+BloodHound JSON export → graph ingestion → feature extraction → dual-model ranking (LightGBM baseline + GNN) → FastAPI backend → React + Cytoscape.js dashboard with remediation panel.
 
 ---
 
@@ -179,88 +135,19 @@ Dashboard at `http://127.0.0.1:5173` — upload a BloodHound JSON and see ranked
 
 ---
 
-## 🖥️ CLI Usage
-
-**Rank top paths:**
-```powershell
-python -m ad_attack_path_predictor.cli rank \
-  --input data\sample_bloodhound.json \
-  --start j.doe \
-  --target "DOMAIN ADMINS" \
-  --top 10
-```
-
-**Export a JSON report:**
-```powershell
-python -m ad_attack_path_predictor.cli rank \
-  --input data\sample_bloodhound.json \
-  --output reports\ranked_paths.json
-```
-
 ---
 
 ## 📥 Input Format
 
-GraphHound accepts BloodHound-style JSON exports:
-
-```json
-{
-  "nodes": [
-    {"id": "j.doe", "name": "j.doe", "kind": "User", "owned": true},
-    {"id": "domain-admins", "name": "DOMAIN ADMINS", "kind": "Group", "high_value": true}
-  ],
-  "edges": [
-    {"source": "j.doe", "target": "helpdesk", "type": "MemberOf"},
-    {"source": "helpdesk", "target": "domain-admins", "type": "GenericAll"}
-  ]
-}
-```
-
-Common key aliases are supported (`ObjectIdentifier`, `Name`, `Label`, `StartNode`, `EndNode`, `RelationshipType`) for compatibility with real BloodHound exports.
+Accepts standard BloodHound JSON exports from SharpHound or BloodHound CE. See `docs/data_schema.md` for format details.
 
 ---
 
-## 🧠 Scoring Philosophy
+## 🧠 Scoring
 
-The risk scorer is intentionally **transparent and explainable**:
-
-| Factor | Direction | Rationale |
-|---|---|---|
-| High-impact edges (`GenericAll`, `WriteDacl`, `DCSync`, `AddMember`) | ↑ Score | Direct privilege escalation capability |
-| Public ATT&CK prevalence of techniques | ↑ Score | Attacker tooling availability |
-| Detection noise / monitoring coverage | ↓ Score | Quieter paths are higher real-world risk |
-| Path length | ↓ Score (penalty) | Longer paths require more attacker steps |
-| Choke-point nodes (high betweenness) | ↑ Score | Fixing these collapses many candidate paths |
-
-This gives an immediately useful baseline and a clean target for the GNN upgrade path.
+Scoring methodology documented in `docs/methodology.md`.
 
 ---
-
-## 📁 Project Layout
-
-```
-ad-attack-path-predictor/
-├── src/ad_attack_path_predictor/   # Python engine and FastAPI backend
-│   ├── api/                        # FastAPI routes (/upload, /rank, /remediate)
-│   ├── core/                       # Graph ingestion, path enumeration
-│   └── features/                   # 14-feature extraction pipeline
-├── dashboard/                      # React + Cytoscape.js UI
-│   └── src/components/             # UploadPanel, GraphView, PathList, RemediationPanel
-├── model/
-│   ├── gnn/                        # PyTorch Geometric GNN (GAT architecture)
-│   └── baseline_lightgbm/          # LightGBM baseline
-├── data/                           # Sample BloodHound-style exports
-├── features/                       # ATT&CK edge-to-technique mapping
-├── graph_db/                       # Neo4j schema and Cypher queries
-├── lab/                            # Lab setup scripts (GOAD / BadBlood)
-├── labeling/                       # Synthetic ground-truth labeler
-├── model/experiments/              # MLflow run artifacts
-├── tests/                          # Pytest suite
-├── docs/                           # Architecture, methodology, assets
-│   └── assets/                     # Screenshots used in this README
-├── reports/                        # Output reports and ranked path exports
-└── ETHICS.md                       # Responsible use statement
-```
 
 ---
 
@@ -330,15 +217,9 @@ See [ETHICS.md](ETHICS.md) for the full responsible use statement.
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Development
 
-- [x] Phase 1 — Graph ingestion, path enumeration, baseline scorer
-- [x] Phase 2 — Feature engineering, LightGBM baseline, synthetic labeling
-- [x] Phase 3 — GNN (PyTorch Geometric), production API, React dashboard, generalization test
-- [ ] Phase 4 — Multi-domain / multi-forest support
-- [ ] Phase 4 — Azure AD / Entra ID hybrid graph support
-- [ ] Phase 4 — Continuous re-collection scheduling
-- [ ] Phase 4 — Multi-tenant dashboard for MSSP use case
+Active development — contributions welcome.
 
 ---
 
