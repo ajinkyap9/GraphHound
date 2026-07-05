@@ -1,42 +1,92 @@
-﻿# Python
+# =============================================================
+# Real lab data — never publish
+# =============================================================
+data/real_exports/*.zip
+data/real_exports/*.json
+data/real_exports/*.csv
+data/uploaded/
+
+# =============================================================
+# Trained model artifacts
+# =============================================================
+model/baseline_lightgbm/baseline.joblib
+model/gnn/*.pt
+model/gnn/*.pth
+model/experiments/
+
+# =============================================================
+# Labeled datasets
+# =============================================================
+labeling/labeled_dataset.csv
+labeling/labeled_dataset_lab2.csv
+
+# =============================================================
+# Pipeline reports with real data
+# =============================================================
+reports/real_pipeline_walkthrough.md
+reports/*.csv
+
+# =============================================================
+# Phase documentation with implementation details
+# =============================================================
+docs/phase2_methodology.md
+docs/phase3_methodology.md
+AD-Attack-Path-Predictor-Phase2-Documentation.md
+AD-Attack-Path-Predictor-Phase3-Documentation.md
+
+# =============================================================
+# Any exported ranked outputs
+# =============================================================
+ranked_output_sample.csv
+ranked_output_lab2.csv
+model/baseline_lightgbm/ranked_output_*.csv
+model/gnn/ranked_output_*.csv
+
+# =============================================================
+# Python artifacts
+# =============================================================
 __pycache__/
-*.py[cod]
-*.class
+*.pyc
+*.pyo
+.venv/
 *.egg-info/
 .eggs/
 dist/
 build/
-.venv/
-venv/
+*.egg
+
+# =============================================================
+# Environment & secrets
+# =============================================================
 .env
 *.log
+*.pem
+*.key
 
-# Node
+# =============================================================
+# Node / dashboard
+# =============================================================
 node_modules/
 dashboard/dist/
 dashboard/.env
 
-# Data (keep sample, ignore real lab exports)
-data/goad_export/
-data/goad_export_lab2/
-
-# MLflow
-model/experiments/
-
-# IDE
+# =============================================================
+# IDE & OS
+# =============================================================
 .vscode/
 .idea/
 *.swp
-
-# OS
 .DS_Store
 Thumbs.db
 
-# pytest
+# =============================================================
+# Testing
+# =============================================================
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Secrets
-*.pem
-*.key
+# =============================================================
+# MLflow
+# =============================================================
+mlruns/
