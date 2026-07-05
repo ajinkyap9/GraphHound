@@ -1,0 +1,486 @@
+:root {
+  color: #0f172a;
+  background: #f8fafc;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
+
+.appShell {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.topbar {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin: 0 auto 16px;
+  max-width: 1480px;
+}
+
+.brand {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.brand h1 {
+  font-size: 24px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.brand p {
+  color: #475569;
+  margin: 4px 0 0;
+}
+
+.iconButton {
+  align-items: center;
+  background: #0f172a;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.banner {
+  align-items: center;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  color: #991b1b;
+  display: flex;
+  gap: 8px;
+  margin: 0 auto 16px;
+  max-width: 1480px;
+  padding: 12px;
+}
+
+.loading {
+  align-items: center;
+  color: #475569;
+  display: flex;
+  height: 55vh;
+  justify-content: center;
+}
+
+.metrics {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0 auto 16px;
+  max-width: 1480px;
+}
+
+.metrics div {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  display: flex;
+  gap: 9px;
+  min-height: 64px;
+  padding: 14px;
+}
+
+.metrics strong {
+  font-size: 22px;
+}
+
+.metrics span {
+  color: #64748b;
+}
+
+.workspace {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 330px minmax(420px, 1fr) 360px;
+  height: calc(100vh - 160px);
+  margin: 0 auto;
+  max-width: 1480px;
+  min-height: 620px;
+}
+
+.pathList,
+.details {
+  overflow: auto;
+}
+
+.pathList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pathCard {
+  background: #ffffff;
+  border: 1px solid #dbe3ee;
+  border-radius: 8px;
+  color: inherit;
+  cursor: pointer;
+  padding: 13px;
+  text-align: left;
+}
+
+.pathCard.active {
+  border-color: #d97706;
+  background-color: #fef8f0;
+  box-shadow: inset 4px 0 0 #d97706;
+}
+
+.pathCardTop {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.rank {
+  color: #64748b;
+  font-weight: 700;
+}
+
+.score {
+  border-radius: 999px;
+  color: #ffffff;
+  font-weight: 800;
+  min-width: 42px;
+  padding: 4px 9px;
+  text-align: center;
+}
+
+.score.critical {
+  background: #dc2626;
+}
+
+.score.elevated {
+  background: #d97706;
+}
+
+.score.moderate {
+  background: #2563eb;
+}
+
+.pathTitle {
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.pathMeta {
+  color: #64748b;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.graphContainer {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #dbe3ee;
+  border-radius: 8px;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.graphCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  background: #ffffff;
+  border: 1px solid #dbe3ee;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.details.empty {
+  align-items: center;
+  color: #64748b;
+  display: flex;
+  justify-content: center;
+}
+
+.detailHeader {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.detailHeader h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.detailHeader p {
+  color: #64748b;
+  margin: 3px 0 0;
+}
+
+.details h3 {
+  font-size: 13px;
+  letter-spacing: 0;
+  margin: 22px 0 10px;
+  text-transform: uppercase;
+}
+
+.explain,
+.fix {
+  border-left: 3px solid #e2e8f0;
+  color: #334155;
+  line-height: 1.45;
+  margin: 0 0 10px;
+  padding-left: 10px;
+}
+
+.fix {
+  border-left-color: #22c55e;
+}
+
+.featureGrid {
+  display: grid;
+  gap: 8px 12px;
+  grid-template-columns: 1fr auto;
+}
+
+.featureGrid span {
+  color: #64748b;
+}
+
+@media (max-width: 1100px) {
+  .workspace {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .graphContainer {
+    height: 560px;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .appShell {
+    padding: 12px;
+  }
+
+  .brand h1 {
+    font-size: 20px;
+  }
+
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.modelSelect {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  transition: border-color 0.2s;
+}
+
+.modelSelect:hover {
+  border-color: #94a3b8;
+}
+
+.uploadBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #2563eb;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 40px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.uploadBtn:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.resetBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 40px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.resetBtn:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+/* Remediation Impact Section Styles */
+.remediationImpactSection {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 14px;
+  margin-top: 16px;
+}
+
+.remediationImpactSection h3 {
+  color: #166534 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.impactMetrics {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.impactMetricRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #374151;
+}
+
+.impactMetricRow strong {
+  color: #111827;
+  font-weight: 600;
+}
+
+.riskReductionRow {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-top: 6px;
+  border-top: 1px solid #dcfce7;
+  padding-top: 8px;
+}
+
+.riskReductionLarge {
+  font-size: 32px;
+  font-weight: 800;
+  color: #16a34a;
+}
+
+/* Technique Tag Pills & Path Metadata Labels */
+.metaLabel {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.techniqueTag {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.techniqueTag.unmapped {
+  background: #f1f5f9;
+  color: #64748b;
+  border-color: #e2e8f0;
+}
+
+/* Graph Legend Styles */
+.graphLegend {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.legendDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1.5px solid;
+}
+
+.legendDot.orange {
+  background-color: #ffedd5;
+  border-color: #f97316;
+}
+
+.legendDot.grey {
+  background-color: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.legendDot.red {
+  background-color: #fee2e2;
+  border-color: #ef4444;
+}
+

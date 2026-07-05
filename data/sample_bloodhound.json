@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {"id": "j.doe", "name": "j.doe", "kind": "User", "owned": true},
+    {"id": "svc.backup", "name": "svc.backup", "kind": "User"},
+    {"id": "svc.sql", "name": "svc.sql", "kind": "User"},
+    {"id": "helpdesk", "name": "Helpdesk", "kind": "Group"},
+    {"id": "server-ops", "name": "Server Operators", "kind": "Group"},
+    {"id": "tier0-maint", "name": "Tier0 Maintenance", "kind": "Group"},
+    {"id": "sql01", "name": "SQL01", "kind": "Computer"},
+    {"id": "jump01", "name": "JUMP01", "kind": "Computer"},
+    {"id": "dc01", "name": "DC01", "kind": "Computer", "high_value": true},
+    {"id": "domain-admins", "name": "DOMAIN ADMINS", "kind": "Group", "high_value": true},
+    {"id": "domain", "name": "corp.local", "kind": "Domain", "high_value": true}
+  ],
+  "edges": [
+    {"source": "j.doe", "target": "helpdesk", "type": "MemberOf"},
+    {"source": "helpdesk", "target": "svc.backup", "type": "GenericAll"},
+    {"source": "svc.backup", "target": "tier0-maint", "type": "AddMember"},
+    {"source": "tier0-maint", "target": "domain-admins", "type": "MemberOf"},
+    {"source": "j.doe", "target": "sql01", "type": "CanRDP"},
+    {"source": "sql01", "target": "svc.sql", "type": "HasSession"},
+    {"source": "svc.sql", "target": "server-ops", "type": "GenericWrite"},
+    {"source": "server-ops", "target": "dc01", "type": "AdminTo"},
+    {"source": "dc01", "target": "domain", "type": "DCSync"},
+    {"source": "helpdesk", "target": "jump01", "type": "AdminTo"},
+    {"source": "jump01", "target": "svc.sql", "type": "HasSession"},
+    {"source": "svc.backup", "target": "domain", "type": "DCSync"},
+    {"source": "svc.sql", "target": "domain-admins", "type": "WriteDacl"},
+    {"source": "server-ops", "target": "tier0-maint", "type": "AddMember"}
+  ]
+}
+

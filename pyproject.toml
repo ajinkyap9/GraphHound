@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ad-attack-path-predictor"
+version = "0.1.0"
+description = "Defensive AD attack-path prioritization for BloodHound-style graphs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi==0.115.6",
+  "uvicorn[standard]==0.34.0",
+  "pydantic==2.10.4",
+  "networkx==3.4.2",
+  "numpy==2.2.1",
+  "scikit-learn==1.6.0",
+  "joblib==1.4.2",
+  "lightgbm>=4.3.0",
+  "pandas>=2.2.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

@@ -1,0 +1,99 @@
+{
+  "MemberOf": {
+    "attack_id": "T1098",
+    "tactic": "Persistence / Privilege Escalation",
+    "prevalence": 0.72,
+    "noisiness": 0.28,
+    "impact": 0.42,
+    "remediation": "Remove unnecessary group membership and enforce just-in-time administrative access."
+  },
+  "AdminTo": {
+    "attack_id": "T1021",
+    "tactic": "Lateral Movement",
+    "prevalence": 0.68,
+    "noisiness": 0.52,
+    "impact": 0.75,
+    "remediation": "Limit local administrator rights and rotate local admin credentials with LAPS."
+  },
+  "HasSession": {
+    "attack_id": "T1550",
+    "tactic": "Lateral Movement",
+    "prevalence": 0.62,
+    "noisiness": 0.38,
+    "impact": 0.58,
+    "remediation": "Reduce privileged interactive logons and isolate administrative workstations."
+  },
+  "GenericAll": {
+    "attack_id": "T1098",
+    "tactic": "Privilege Escalation",
+    "prevalence": 0.66,
+    "noisiness": 0.34,
+    "impact": 0.94,
+    "remediation": "Remove GenericAll delegation and replace it with narrowly scoped permissions."
+  },
+  "GenericWrite": {
+    "attack_id": "T1098",
+    "tactic": "Privilege Escalation",
+    "prevalence": 0.58,
+    "noisiness": 0.36,
+    "impact": 0.78,
+    "remediation": "Remove GenericWrite delegation or scope it to specific required attributes."
+  },
+  "WriteDacl": {
+    "attack_id": "T1222",
+    "tactic": "Defense Evasion / Privilege Escalation",
+    "prevalence": 0.53,
+    "noisiness": 0.46,
+    "impact": 0.92,
+    "remediation": "Remove WriteDacl rights and audit ACL changes on high-value objects."
+  },
+  "WriteOwner": {
+    "attack_id": "T1222",
+    "tactic": "Defense Evasion / Privilege Escalation",
+    "prevalence": 0.46,
+    "noisiness": 0.48,
+    "impact": 0.88,
+    "remediation": "Remove WriteOwner rights and monitor ownership changes."
+  },
+  "AddMember": {
+    "attack_id": "T1098",
+    "tactic": "Persistence / Privilege Escalation",
+    "prevalence": 0.64,
+    "noisiness": 0.31,
+    "impact": 0.86,
+    "remediation": "Restrict who can modify group membership and alert on privileged group changes."
+  },
+  "AllowedToDelegate": {
+    "attack_id": "T1558",
+    "tactic": "Credential Access / Privilege Escalation",
+    "prevalence": 0.44,
+    "noisiness": 0.57,
+    "impact": 0.9,
+    "remediation": "Review constrained delegation and remove unnecessary SPN delegation paths."
+  },
+  "DCSync": {
+    "attack_id": "T1003.006",
+    "tactic": "Credential Access",
+    "prevalence": 0.59,
+    "noisiness": 0.82,
+    "impact": 1.0,
+    "remediation": "Restrict directory replication permissions and alert on replication API abuse."
+  },
+  "Owns": {
+    "attack_id": "T1222",
+    "tactic": "Privilege Escalation",
+    "prevalence": 0.4,
+    "noisiness": 0.42,
+    "impact": 0.82,
+    "remediation": "Reset object owner to an approved administrative group."
+  },
+  "CanRDP": {
+    "attack_id": "T1021.001",
+    "tactic": "Lateral Movement",
+    "prevalence": 0.61,
+    "noisiness": 0.56,
+    "impact": 0.64,
+    "remediation": "Restrict RDP rights and require privileged access workstations."
+  }
+}
+

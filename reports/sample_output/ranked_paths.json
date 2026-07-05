@@ -1,0 +1,1002 @@
+{
+  "summary": {
+    "graph_nodes": 11,
+    "graph_edges": 14,
+    "candidate_paths": 10,
+    "returned_paths": 8,
+    "start_nodes": [
+      "j.doe"
+    ],
+    "target_nodes": [
+      "dc01",
+      "domain-admins",
+      "domain"
+    ],
+    "top_score": 0.8604
+  },
+  "paths": [
+    {
+      "rank": 1,
+      "path_id": "j.doe -> MemberOf -> helpdesk -> GenericAll -> svc.backup -> AddMember -> tier0-maint -> MemberOf -> domain-admins",
+      "score": 0.8604,
+      "confidence": "high",
+      "nodes": [
+        {
+          "id": "j.doe",
+          "name": "j.doe",
+          "kind": "User",
+          "owned": true,
+          "high_value": false,
+          "properties": {
+            "owned": true
+          }
+        },
+        {
+          "id": "helpdesk",
+          "name": "Helpdesk",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "svc.backup",
+          "name": "svc.backup",
+          "kind": "User",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "tier0-maint",
+          "name": "Tier0 Maintenance",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "domain-admins",
+          "name": "DOMAIN ADMINS",
+          "kind": "Group",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "j.doe",
+          "target": "helpdesk",
+          "type": "MemberOf",
+          "properties": {}
+        },
+        {
+          "source": "helpdesk",
+          "target": "svc.backup",
+          "type": "GenericAll",
+          "properties": {}
+        },
+        {
+          "source": "svc.backup",
+          "target": "tier0-maint",
+          "type": "AddMember",
+          "properties": {}
+        },
+        {
+          "source": "tier0-maint",
+          "target": "domain-admins",
+          "type": "MemberOf",
+          "properties": {}
+        }
+      ],
+      "features": {
+        "path_id": "j.doe -> MemberOf -> helpdesk -> GenericAll -> svc.backup -> AddMember -> tier0-maint -> MemberOf -> domain-admins",
+        "node_ids": [
+          "j.doe",
+          "helpdesk",
+          "svc.backup",
+          "tier0-maint",
+          "domain-admins"
+        ],
+        "edge_types": [
+          "MemberOf",
+          "GenericAll",
+          "AddMember",
+          "MemberOf"
+        ],
+        "length": 4,
+        "unique_edge_types": 3,
+        "mean_prevalence": 0.685,
+        "mean_noisiness": 0.3025,
+        "max_impact": 0.94,
+        "choke_point_score": 0.75,
+        "high_value_steps": 1,
+        "quiet_edge_ratio": 1.0,
+        "technique_ids": [
+          "T1098"
+        ]
+      },
+      "explanations": [
+        "Contains at least one high-impact control edge that can materially change privilege.",
+        "Uses techniques with strong public incident prevalence.",
+        "Mostly quiet relationships, so the path may be harder to detect in real time.",
+        "Passes through a graph choke point that appears in many candidate paths."
+      ],
+      "remediation": [
+        "Remove GenericAll delegation and replace it with narrowly scoped permissions. Relationship: Helpdesk -> svc.backup.",
+        "Restrict who can modify group membership and alert on privileged group changes. Relationship: svc.backup -> Tier0 Maintenance.",
+        "Remove unnecessary group membership and enforce just-in-time administrative access. Relationship: j.doe -> Helpdesk.",
+        "Remove unnecessary group membership and enforce just-in-time administrative access. Relationship: Tier0 Maintenance -> DOMAIN ADMINS."
+      ]
+    },
+    {
+      "rank": 2,
+      "path_id": "j.doe -> MemberOf -> helpdesk -> GenericAll -> svc.backup -> DCSync -> domain",
+      "score": 0.8584,
+      "confidence": "high",
+      "nodes": [
+        {
+          "id": "j.doe",
+          "name": "j.doe",
+          "kind": "User",
+          "owned": true,
+          "high_value": false,
+          "properties": {
+            "owned": true
+          }
+        },
+        {
+          "id": "helpdesk",
+          "name": "Helpdesk",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "svc.backup",
+          "name": "svc.backup",
+          "kind": "User",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "domain",
+          "name": "corp.local",
+          "kind": "Domain",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "j.doe",
+          "target": "helpdesk",
+          "type": "MemberOf",
+          "properties": {}
+        },
+        {
+          "source": "helpdesk",
+          "target": "svc.backup",
+          "type": "GenericAll",
+          "properties": {}
+        },
+        {
+          "source": "svc.backup",
+          "target": "domain",
+          "type": "DCSync",
+          "properties": {}
+        }
+      ],
+      "features": {
+        "path_id": "j.doe -> MemberOf -> helpdesk -> GenericAll -> svc.backup -> DCSync -> domain",
+        "node_ids": [
+          "j.doe",
+          "helpdesk",
+          "svc.backup",
+          "domain"
+        ],
+        "edge_types": [
+          "MemberOf",
+          "GenericAll",
+          "DCSync"
+        ],
+        "length": 3,
+        "unique_edge_types": 3,
+        "mean_prevalence": 0.6566666666666666,
+        "mean_noisiness": 0.48,
+        "max_impact": 1.0,
+        "choke_point_score": 0.75,
+        "high_value_steps": 1,
+        "quiet_edge_ratio": 0.6666666666666666,
+        "technique_ids": [
+          "T1003.006",
+          "T1098"
+        ]
+      },
+      "explanations": [
+        "Contains at least one high-impact control edge that can materially change privilege.",
+        "Uses techniques with strong public incident prevalence.",
+        "Mostly quiet relationships, so the path may be harder to detect in real time.",
+        "Passes through a graph choke point that appears in many candidate paths.",
+        "Short path with few required steps."
+      ],
+      "remediation": [
+        "Restrict directory replication permissions and alert on replication API abuse. Relationship: svc.backup -> corp.local.",
+        "Remove GenericAll delegation and replace it with narrowly scoped permissions. Relationship: Helpdesk -> svc.backup.",
+        "Remove unnecessary group membership and enforce just-in-time administrative access. Relationship: j.doe -> Helpdesk."
+      ]
+    },
+    {
+      "rank": 3,
+      "path_id": "j.doe -> CanRDP -> sql01 -> HasSession -> svc.sql -> WriteDacl -> domain-admins",
+      "score": 0.8095,
+      "confidence": "high",
+      "nodes": [
+        {
+          "id": "j.doe",
+          "name": "j.doe",
+          "kind": "User",
+          "owned": true,
+          "high_value": false,
+          "properties": {
+            "owned": true
+          }
+        },
+        {
+          "id": "sql01",
+          "name": "SQL01",
+          "kind": "Computer",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "svc.sql",
+          "name": "svc.sql",
+          "kind": "User",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "domain-admins",
+          "name": "DOMAIN ADMINS",
+          "kind": "Group",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "j.doe",
+          "target": "sql01",
+          "type": "CanRDP",
+          "properties": {}
+        },
+        {
+          "source": "sql01",
+          "target": "svc.sql",
+          "type": "HasSession",
+          "properties": {}
+        },
+        {
+          "source": "svc.sql",
+          "target": "domain-admins",
+          "type": "WriteDacl",
+          "properties": {}
+        }
+      ],
+      "features": {
+        "path_id": "j.doe -> CanRDP -> sql01 -> HasSession -> svc.sql -> WriteDacl -> domain-admins",
+        "node_ids": [
+          "j.doe",
+          "sql01",
+          "svc.sql",
+          "domain-admins"
+        ],
+        "edge_types": [
+          "CanRDP",
+          "HasSession",
+          "WriteDacl"
+        ],
+        "length": 3,
+        "unique_edge_types": 3,
+        "mean_prevalence": 0.5866666666666667,
+        "mean_noisiness": 0.46666666666666673,
+        "max_impact": 0.92,
+        "choke_point_score": 1.0,
+        "high_value_steps": 1,
+        "quiet_edge_ratio": 0.3333333333333333,
+        "technique_ids": [
+          "T1021.001",
+          "T1222",
+          "T1550"
+        ]
+      },
+      "explanations": [
+        "Contains at least one high-impact control edge that can materially change privilege.",
+        "Passes through a graph choke point that appears in many candidate paths.",
+        "Short path with few required steps."
+      ],
+      "remediation": [
+        "Remove WriteDacl rights and audit ACL changes on high-value objects. Relationship: svc.sql -> DOMAIN ADMINS.",
+        "Restrict RDP rights and require privileged access workstations. Relationship: j.doe -> SQL01.",
+        "Reduce privileged interactive logons and isolate administrative workstations. Relationship: SQL01 -> svc.sql."
+      ]
+    },
+    {
+      "rank": 4,
+      "path_id": "j.doe -> MemberOf -> helpdesk -> AdminTo -> jump01 -> HasSession -> svc.sql -> WriteDacl -> domain-admins",
+      "score": 0.8001,
+      "confidence": "high",
+      "nodes": [
+        {
+          "id": "j.doe",
+          "name": "j.doe",
+          "kind": "User",
+          "owned": true,
+          "high_value": false,
+          "properties": {
+            "owned": true
+          }
+        },
+        {
+          "id": "helpdesk",
+          "name": "Helpdesk",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "jump01",
+          "name": "JUMP01",
+          "kind": "Computer",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "svc.sql",
+          "name": "svc.sql",
+          "kind": "User",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "domain-admins",
+          "name": "DOMAIN ADMINS",
+          "kind": "Group",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "j.doe",
+          "target": "helpdesk",
+          "type": "MemberOf",
+          "properties": {}
+        },
+        {
+          "source": "helpdesk",
+          "target": "jump01",
+          "type": "AdminTo",
+          "properties": {}
+        },
+        {
+          "source": "jump01",
+          "target": "svc.sql",
+          "type": "HasSession",
+          "properties": {}
+        },
+        {
+          "source": "svc.sql",
+          "target": "domain-admins",
+          "type": "WriteDacl",
+          "properties": {}
+        }
+      ],
+      "features": {
+        "path_id": "j.doe -> MemberOf -> helpdesk -> AdminTo -> jump01 -> HasSession -> svc.sql -> WriteDacl -> domain-admins",
+        "node_ids": [
+          "j.doe",
+          "helpdesk",
+          "jump01",
+          "svc.sql",
+          "domain-admins"
+        ],
+        "edge_types": [
+          "MemberOf",
+          "AdminTo",
+          "HasSession",
+          "WriteDacl"
+        ],
+        "length": 4,
+        "unique_edge_types": 4,
+        "mean_prevalence": 0.6375,
+        "mean_noisiness": 0.41000000000000003,
+        "max_impact": 0.92,
+        "choke_point_score": 1.0,
+        "high_value_steps": 1,
+        "quiet_edge_ratio": 0.5,
+        "technique_ids": [
+          "T1021",
+          "T1098",
+          "T1222",
+          "T1550"
+        ]
+      },
+      "explanations": [
+        "Contains at least one high-impact control edge that can materially change privilege.",
+        "Uses techniques with strong public incident prevalence.",
+        "Mostly quiet relationships, so the path may be harder to detect in real time.",
+        "Passes through a graph choke point that appears in many candidate paths."
+      ],
+      "remediation": [
+        "Remove WriteDacl rights and audit ACL changes on high-value objects. Relationship: svc.sql -> DOMAIN ADMINS.",
+        "Limit local administrator rights and rotate local admin credentials with LAPS. Relationship: Helpdesk -> JUMP01.",
+        "Reduce privileged interactive logons and isolate administrative workstations. Relationship: JUMP01 -> svc.sql.",
+        "Remove unnecessary group membership and enforce just-in-time administrative access. Relationship: j.doe -> Helpdesk."
+      ]
+    },
+    {
+      "rank": 5,
+      "path_id": "j.doe -> CanRDP -> sql01 -> HasSession -> svc.sql -> GenericWrite -> server-ops -> AddMember -> tier0-maint -> MemberOf -> domain-admins",
+      "score": 0.775,
+      "confidence": "high",
+      "nodes": [
+        {
+          "id": "j.doe",
+          "name": "j.doe",
+          "kind": "User",
+          "owned": true,
+          "high_value": false,
+          "properties": {
+            "owned": true
+          }
+        },
+        {
+          "id": "sql01",
+          "name": "SQL01",
+          "kind": "Computer",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "svc.sql",
+          "name": "svc.sql",
+          "kind": "User",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "server-ops",
+          "name": "Server Operators",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "tier0-maint",
+          "name": "Tier0 Maintenance",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "domain-admins",
+          "name": "DOMAIN ADMINS",
+          "kind": "Group",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "j.doe",
+          "target": "sql01",
+          "type": "CanRDP",
+          "properties": {}
+        },
+        {
+          "source": "sql01",
+          "target": "svc.sql",
+          "type": "HasSession",
+          "properties": {}
+        },
+        {
+          "source": "svc.sql",
+          "target": "server-ops",
+          "type": "GenericWrite",
+          "properties": {}
+        },
+        {
+          "source": "server-ops",
+          "target": "tier0-maint",
+          "type": "AddMember",
+          "properties": {}
+        },
+        {
+          "source": "tier0-maint",
+          "target": "domain-admins",
+          "type": "MemberOf",
+          "properties": {}
+        }
+      ],
+      "features": {
+        "path_id": "j.doe -> CanRDP -> sql01 -> HasSession -> svc.sql -> GenericWrite -> server-ops -> AddMember -> tier0-maint -> MemberOf -> domain-admins",
+        "node_ids": [
+          "j.doe",
+          "sql01",
+          "svc.sql",
+          "server-ops",
+          "tier0-maint",
+          "domain-admins"
+        ],
+        "edge_types": [
+          "CanRDP",
+          "HasSession",
+          "GenericWrite",
+          "AddMember",
+          "MemberOf"
+        ],
+        "length": 5,
+        "unique_edge_types": 5,
+        "mean_prevalence": 0.634,
+        "mean_noisiness": 0.378,
+        "max_impact": 0.86,
+        "choke_point_score": 1.0,
+        "high_value_steps": 1,
+        "quiet_edge_ratio": 0.8,
+        "technique_ids": [
+          "T1021.001",
+          "T1098",
+          "T1550"
+        ]
+      },
+      "explanations": [
+        "Contains at least one high-impact control edge that can materially change privilege.",
+        "Uses techniques with strong public incident prevalence.",
+        "Mostly quiet relationships, so the path may be harder to detect in real time.",
+        "Passes through a graph choke point that appears in many candidate paths."
+      ],
+      "remediation": [
+        "Restrict who can modify group membership and alert on privileged group changes. Relationship: Server Operators -> Tier0 Maintenance.",
+        "Remove GenericWrite delegation or scope it to specific required attributes. Relationship: svc.sql -> Server Operators.",
+        "Restrict RDP rights and require privileged access workstations. Relationship: j.doe -> SQL01.",
+        "Reduce privileged interactive logons and isolate administrative workstations. Relationship: SQL01 -> svc.sql."
+      ]
+    },
+    {
+      "rank": 6,
+      "path_id": "j.doe -> CanRDP -> sql01 -> HasSession -> svc.sql -> GenericWrite -> server-ops -> AdminTo -> dc01",
+      "score": 0.7411,
+      "confidence": "medium",
+      "nodes": [
+        {
+          "id": "j.doe",
+          "name": "j.doe",
+          "kind": "User",
+          "owned": true,
+          "high_value": false,
+          "properties": {
+            "owned": true
+          }
+        },
+        {
+          "id": "sql01",
+          "name": "SQL01",
+          "kind": "Computer",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "svc.sql",
+          "name": "svc.sql",
+          "kind": "User",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "server-ops",
+          "name": "Server Operators",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "dc01",
+          "name": "DC01",
+          "kind": "Computer",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "j.doe",
+          "target": "sql01",
+          "type": "CanRDP",
+          "properties": {}
+        },
+        {
+          "source": "sql01",
+          "target": "svc.sql",
+          "type": "HasSession",
+          "properties": {}
+        },
+        {
+          "source": "svc.sql",
+          "target": "server-ops",
+          "type": "GenericWrite",
+          "properties": {}
+        },
+        {
+          "source": "server-ops",
+          "target": "dc01",
+          "type": "AdminTo",
+          "properties": {}
+        }
+      ],
+      "features": {
+        "path_id": "j.doe -> CanRDP -> sql01 -> HasSession -> svc.sql -> GenericWrite -> server-ops -> AdminTo -> dc01",
+        "node_ids": [
+          "j.doe",
+          "sql01",
+          "svc.sql",
+          "server-ops",
+          "dc01"
+        ],
+        "edge_types": [
+          "CanRDP",
+          "HasSession",
+          "GenericWrite",
+          "AdminTo"
+        ],
+        "length": 4,
+        "unique_edge_types": 4,
+        "mean_prevalence": 0.6225,
+        "mean_noisiness": 0.455,
+        "max_impact": 0.78,
+        "choke_point_score": 1.0,
+        "high_value_steps": 1,
+        "quiet_edge_ratio": 0.5,
+        "technique_ids": [
+          "T1021",
+          "T1021.001",
+          "T1098",
+          "T1550"
+        ]
+      },
+      "explanations": [
+        "Uses techniques with strong public incident prevalence.",
+        "Mostly quiet relationships, so the path may be harder to detect in real time.",
+        "Passes through a graph choke point that appears in many candidate paths."
+      ],
+      "remediation": [
+        "Remove GenericWrite delegation or scope it to specific required attributes. Relationship: svc.sql -> Server Operators.",
+        "Limit local administrator rights and rotate local admin credentials with LAPS. Relationship: Server Operators -> DC01.",
+        "Restrict RDP rights and require privileged access workstations. Relationship: j.doe -> SQL01.",
+        "Reduce privileged interactive logons and isolate administrative workstations. Relationship: SQL01 -> svc.sql."
+      ]
+    },
+    {
+      "rank": 7,
+      "path_id": "j.doe -> CanRDP -> sql01 -> HasSession -> svc.sql -> GenericWrite -> server-ops -> AdminTo -> dc01 -> DCSync -> domain",
+      "score": 0.7352,
+      "confidence": "medium",
+      "nodes": [
+        {
+          "id": "j.doe",
+          "name": "j.doe",
+          "kind": "User",
+          "owned": true,
+          "high_value": false,
+          "properties": {
+            "owned": true
+          }
+        },
+        {
+          "id": "sql01",
+          "name": "SQL01",
+          "kind": "Computer",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "svc.sql",
+          "name": "svc.sql",
+          "kind": "User",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "server-ops",
+          "name": "Server Operators",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "dc01",
+          "name": "DC01",
+          "kind": "Computer",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        },
+        {
+          "id": "domain",
+          "name": "corp.local",
+          "kind": "Domain",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "j.doe",
+          "target": "sql01",
+          "type": "CanRDP",
+          "properties": {}
+        },
+        {
+          "source": "sql01",
+          "target": "svc.sql",
+          "type": "HasSession",
+          "properties": {}
+        },
+        {
+          "source": "svc.sql",
+          "target": "server-ops",
+          "type": "GenericWrite",
+          "properties": {}
+        },
+        {
+          "source": "server-ops",
+          "target": "dc01",
+          "type": "AdminTo",
+          "properties": {}
+        },
+        {
+          "source": "dc01",
+          "target": "domain",
+          "type": "DCSync",
+          "properties": {}
+        }
+      ],
+      "features": {
+        "path_id": "j.doe -> CanRDP -> sql01 -> HasSession -> svc.sql -> GenericWrite -> server-ops -> AdminTo -> dc01 -> DCSync -> domain",
+        "node_ids": [
+          "j.doe",
+          "sql01",
+          "svc.sql",
+          "server-ops",
+          "dc01",
+          "domain"
+        ],
+        "edge_types": [
+          "CanRDP",
+          "HasSession",
+          "GenericWrite",
+          "AdminTo",
+          "DCSync"
+        ],
+        "length": 5,
+        "unique_edge_types": 5,
+        "mean_prevalence": 0.616,
+        "mean_noisiness": 0.528,
+        "max_impact": 1.0,
+        "choke_point_score": 1.0,
+        "high_value_steps": 2,
+        "quiet_edge_ratio": 0.4,
+        "technique_ids": [
+          "T1003.006",
+          "T1021",
+          "T1021.001",
+          "T1098",
+          "T1550"
+        ]
+      },
+      "explanations": [
+        "Contains at least one high-impact control edge that can materially change privilege.",
+        "Uses techniques with strong public incident prevalence.",
+        "Passes through a graph choke point that appears in many candidate paths."
+      ],
+      "remediation": [
+        "Restrict directory replication permissions and alert on replication API abuse. Relationship: DC01 -> corp.local.",
+        "Remove GenericWrite delegation or scope it to specific required attributes. Relationship: svc.sql -> Server Operators.",
+        "Limit local administrator rights and rotate local admin credentials with LAPS. Relationship: Server Operators -> DC01.",
+        "Restrict RDP rights and require privileged access workstations. Relationship: j.doe -> SQL01."
+      ]
+    },
+    {
+      "rank": 8,
+      "path_id": "j.doe -> MemberOf -> helpdesk -> AdminTo -> jump01 -> HasSession -> svc.sql -> GenericWrite -> server-ops -> AddMember -> tier0-maint -> MemberOf -> domain-admins",
+      "score": 0.7294,
+      "confidence": "medium",
+      "nodes": [
+        {
+          "id": "j.doe",
+          "name": "j.doe",
+          "kind": "User",
+          "owned": true,
+          "high_value": false,
+          "properties": {
+            "owned": true
+          }
+        },
+        {
+          "id": "helpdesk",
+          "name": "Helpdesk",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "jump01",
+          "name": "JUMP01",
+          "kind": "Computer",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "svc.sql",
+          "name": "svc.sql",
+          "kind": "User",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "server-ops",
+          "name": "Server Operators",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "tier0-maint",
+          "name": "Tier0 Maintenance",
+          "kind": "Group",
+          "owned": false,
+          "high_value": false,
+          "properties": {}
+        },
+        {
+          "id": "domain-admins",
+          "name": "DOMAIN ADMINS",
+          "kind": "Group",
+          "owned": false,
+          "high_value": true,
+          "properties": {
+            "high_value": true
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "j.doe",
+          "target": "helpdesk",
+          "type": "MemberOf",
+          "properties": {}
+        },
+        {
+          "source": "helpdesk",
+          "target": "jump01",
+          "type": "AdminTo",
+          "properties": {}
+        },
+        {
+          "source": "jump01",
+          "target": "svc.sql",
+          "type": "HasSession",
+          "properties": {}
+        },
+        {
+          "source": "svc.sql",
+          "target": "server-ops",
+          "type": "GenericWrite",
+          "properties": {}
+        },
+        {
+          "source": "server-ops",
+          "target": "tier0-maint",
+          "type": "AddMember",
+          "properties": {}
+        },
+        {
+          "source": "tier0-maint",
+          "target": "domain-admins",
+          "type": "MemberOf",
+          "properties": {}
+        }
+      ],
+      "features": {
+        "path_id": "j.doe -> MemberOf -> helpdesk -> AdminTo -> jump01 -> HasSession -> svc.sql -> GenericWrite -> server-ops -> AddMember -> tier0-maint -> MemberOf -> domain-admins",
+        "node_ids": [
+          "j.doe",
+          "helpdesk",
+          "jump01",
+          "svc.sql",
+          "server-ops",
+          "tier0-maint",
+          "domain-admins"
+        ],
+        "edge_types": [
+          "MemberOf",
+          "AdminTo",
+          "HasSession",
+          "GenericWrite",
+          "AddMember",
+          "MemberOf"
+        ],
+        "length": 6,
+        "unique_edge_types": 5,
+        "mean_prevalence": 0.66,
+        "mean_noisiness": 0.355,
+        "max_impact": 0.86,
+        "choke_point_score": 1.0,
+        "high_value_steps": 1,
+        "quiet_edge_ratio": 0.8333333333333334,
+        "technique_ids": [
+          "T1021",
+          "T1098",
+          "T1550"
+        ]
+      },
+      "explanations": [
+        "Contains at least one high-impact control edge that can materially change privilege.",
+        "Uses techniques with strong public incident prevalence.",
+        "Mostly quiet relationships, so the path may be harder to detect in real time.",
+        "Passes through a graph choke point that appears in many candidate paths."
+      ],
+      "remediation": [
+        "Restrict who can modify group membership and alert on privileged group changes. Relationship: Server Operators -> Tier0 Maintenance.",
+        "Remove GenericWrite delegation or scope it to specific required attributes. Relationship: svc.sql -> Server Operators.",
+        "Limit local administrator rights and rotate local admin credentials with LAPS. Relationship: Helpdesk -> JUMP01.",
+        "Reduce privileged interactive logons and isolate administrative workstations. Relationship: JUMP01 -> svc.sql."
+      ]
+    }
+  ]
+}
