@@ -77,18 +77,24 @@ GraphHound ingests **BloodHound JSON exports** from Active Directory environment
 
 ---
 
-## 📊 Key Results
+## 📊 Key Results & Cross-Environment Validation
 
-| Metric | Result | Notes |
-|---|---|---|
-| **Precision@5** | **100%** | Lab 1 — 594 paths, 3,405 nodes |
-| **Precision@10** | **100%** | Lab 1 |
-| **GNN Recall@20%** | **19.44%** | Unseen dense graph (Lab 2) |
-| **LightGBM Recall@20%** | **0%** | Same unseen graph — complete failure |
-| **Remediation impact** | **52.10%** | Single fix collapsed 124 / 238 paths |
-| **Graph scale** | 3,405 nodes · 72,810 edges | Production-scale BadBlood synthetic AD |
+### Multi-Environment Comparison
 
-> **Key finding:** The GNN maintains 19.44% Recall@20% on an unseen dense graph where LightGBM completely fails (0%) due to technique homogeneity — empirically proving that **graph structure carries independent signal beyond tabular features**.
+| Metric / Attribute | SpookySec Validation (`spookysec.local` - THM) | `corp.local` (Lab 1 - Train Env) | `corp.local` (Lab 2 - Gen Env) |
+| :--- | :---: | :---: | :---: |
+| **Nodes** | **99** | **3,405** | **3,405** |
+| **Edges** | **866** | **72,810** | **72,810** |
+| **Total Paths** | **9** | **594** | **238** |
+| **GNN Precision@5** | **20.00%** | **100.00%** | **0.00%** |
+| **GNN Precision@10** | **22.22%** | **100.00%** | **0.00%** |
+| **Remediation Impact** | **100.00%** | **52.10%** | **52.10%** |
+| **Critical Chain in Top 5?** | **Yes (Rank #1)** | **Yes** | **N/A** |
+
+> [!NOTE]
+> * **GNN Generalization**: The GNN maintains **19.44% Recall@20%** on the unseen dense graph (`corp.local` Lab 2) where the LightGBM baseline completely fails (0% Recall), proving that graph structural features carry critical representation power.
+> * **Real-Lab Validation**: When tested against the **TryHackMe Attacktive Directory (`spookysec.local`)** lab export, the GNN successfully prioritized the critical Active Directory DCSync path (`svc-admin` ➔ `backup` ➔ `SPOOKYSEC.LOCAL`) at **Rank #1** (raw score of 1.00), demonstrating immediate value for defensive prioritization.
+> * **Remediation Impact**: GraphHound successfully calculated that severing the `GenericAll` link on the simulated backup node would collapse **100%** of all active path options to the Domain Controller in the SpookySec environment.
 
 ---
 
