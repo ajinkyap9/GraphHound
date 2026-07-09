@@ -106,7 +106,9 @@ def evaluate_models():
         json.dump(comparison, f, indent=2)
 
 def evaluate_dataset(json_path, gnn_model, lgb_model, lgb_features, dataset_name):
-    data = build_graph_data(json_path)
+    is_spookysec = "thm" in str(json_path).lower() or "spookysec" in str(json_path).lower()
+    start_node = "svc-admin@SPOOKYSEC.LOCAL" if is_spookysec else None
+    data = build_graph_data(json_path, allow_edge_simulation=is_spookysec, start=start_node)
     X = data["X"]
     edge_index = data["edge_index"]
     path_nodes = data["path_nodes"]

@@ -16,6 +16,7 @@ def build_parser() -> argparse.ArgumentParser:
     rank.add_argument("--target", help="Target node id or name. Defaults to high-value nodes.")
     rank.add_argument("--top", type=int, default=10, help="Number of ranked paths to return")
     rank.add_argument("--cutoff", type=int, default=6, help="Maximum path length")
+    rank.add_argument("--allow-edge-simulation", action="store_true", help="Allow edge simulation for validation purposes")
     rank.add_argument("--output", help="Optional JSON report path")
     return parser
 
@@ -23,7 +24,14 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> None:
     args = build_parser().parse_args()
     if args.command == "rank":
-        response = rank_from_file(args.input, start=args.start, target=args.target, top_n=args.top, cutoff=args.cutoff)
+        response = rank_from_file(
+            args.input,
+            start=args.start,
+            target=args.target,
+            top_n=args.top,
+            cutoff=args.cutoff,
+            allow_edge_simulation=args.allow_edge_simulation
+        )
         payload = response.model_dump(mode="json")
         rendered = json.dumps(payload, indent=2)
         if args.output:

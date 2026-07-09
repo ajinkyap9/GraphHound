@@ -82,6 +82,12 @@ class RankingSummary(BaseModel):
     start_nodes: list[str]
     target_nodes: list[str]
     top_score: float | None = None
+    has_session: bool = False
+    has_acl: bool = False
+    has_gpo: bool = False
+    environment_type: str = "Unknown"
+    edge_simulation_used: bool = False
+
 
 
 class RankingResponse(BaseModel):
