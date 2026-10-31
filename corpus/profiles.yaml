@@ -1,0 +1,127 @@
+# ============================================================
+# Synthetic corpus profile definitions for GraphHound
+# ============================================================
+# Each profile defines knobs that control the graph generator.
+# Same profile + same seed → byte-identical output.
+#
+# Knobs
+# -----
+# node_count           : approximate total nodes
+# user_ratio           : fraction of nodes that are Users
+# group_ratio          : fraction of nodes that are Groups
+# computer_ratio       : fraction of nodes that are Computers
+# (remainder goes to OU + GPO nodes)
+# group_nesting_depth  : max depth of nested MemberOf chains among groups
+# acl_edge_density     : probability that any eligible pair gets an ACL edge
+# session_density      : fraction of computers that have sessions
+# misconfiguration_rate: fraction of ACL edges representing misconfigs
+# tier0_targets        : number of high-value Tier-0 target nodes
+# owned_start_nodes    : number of nodes marked owned=True
+# ============================================================
+
+profiles:
+
+  small_clean:
+    description: "Small, well-managed environment with very few misconfigurations"
+    node_count: 100
+    user_ratio: 0.50
+    group_ratio: 0.25
+    computer_ratio: 0.15
+    group_nesting_depth: 2
+    acl_edge_density: 0.02
+    session_density: 0.15
+    misconfiguration_rate: 0.05
+    tier0_targets: 2
+    owned_start_nodes: 2
+
+  small_sloppy:
+    description: "Small but poorly managed — many misconfigurations"
+    node_count: 150
+    user_ratio: 0.45
+    group_ratio: 0.25
+    computer_ratio: 0.18
+    group_nesting_depth: 3
+    acl_edge_density: 0.06
+    session_density: 0.30
+    misconfiguration_rate: 0.40
+    tier0_targets: 3
+    owned_start_nodes: 5
+
+  medium_balanced:
+    description: "Medium org with typical mix of structure and mis-config"
+    node_count: 500
+    user_ratio: 0.50
+    group_ratio: 0.22
+    computer_ratio: 0.18
+    group_nesting_depth: 4
+    acl_edge_density: 0.010
+    session_density: 0.20
+    misconfiguration_rate: 0.15
+    tier0_targets: 4
+    owned_start_nodes: 5
+
+  medium_deep_nesting:
+    description: "Medium org with very deep group nesting chains"
+    node_count: 500
+    user_ratio: 0.40
+    group_ratio: 0.35
+    computer_ratio: 0.15
+    group_nesting_depth: 12
+    acl_edge_density: 0.008
+    session_density: 0.15
+    misconfiguration_rate: 0.12
+    tier0_targets: 3
+    owned_start_nodes: 4
+
+  large_dense_acl:
+    description: "Large environment with very dense ACL edges"
+    node_count: 3000
+    user_ratio: 0.48
+    group_ratio: 0.22
+    computer_ratio: 0.20
+    group_nesting_depth: 5
+    acl_edge_density: 0.004
+    session_density: 0.20
+    misconfiguration_rate: 0.25
+    tier0_targets: 6
+    owned_start_nodes: 8
+
+  large_sparse_acl:
+    description: "Large environment dominated by memberships, very few ACL edges"
+    node_count: 3000
+    user_ratio: 0.50
+    group_ratio: 0.28
+    computer_ratio: 0.15
+    group_nesting_depth: 5
+    acl_edge_density: 0.0005
+    session_density: 0.10
+    misconfiguration_rate: 0.08
+    tier0_targets: 4
+    owned_start_nodes: 6
+
+  xl:
+    description: "Extra-large environment stress test"
+    node_count: 10000
+    user_ratio: 0.50
+    group_ratio: 0.22
+    computer_ratio: 0.18
+    group_nesting_depth: 6
+    acl_edge_density: 0.0008
+    session_density: 0.15
+    misconfiguration_rate: 0.15
+    tier0_targets: 8
+    owned_start_nodes: 10
+
+  hardened:
+    description: "Large, hardened environment — very few misconfigurations"
+    node_count: 3000
+    user_ratio: 0.50
+    group_ratio: 0.22
+    computer_ratio: 0.18
+    group_nesting_depth: 3
+    acl_edge_density: 0.001
+    session_density: 0.08
+    misconfiguration_rate: 0.02
+    tier0_targets: 3
+    owned_start_nodes: 3
+
