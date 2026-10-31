@@ -87,16 +87,16 @@ profiles:
     owned_start_nodes: 8
 
   large_sparse_acl:
-    description: "Large environment dominated by memberships, very few ACL edges"
+    description: "Large enterprise dominated by deep group hierarchy and memberships, minimal ACL noise"
     node_count: 3000
-    user_ratio: 0.50
-    group_ratio: 0.28
-    computer_ratio: 0.15
-    group_nesting_depth: 5
-    acl_edge_density: 0.0005
-    session_density: 0.10
-    misconfiguration_rate: 0.08
-    tier0_targets: 4
+    user_ratio: 0.45
+    group_ratio: 0.38
+    computer_ratio: 0.12
+    group_nesting_depth: 10
+    acl_edge_density: 0.0002
+    session_density: 0.08
+    misconfiguration_rate: 0.05
+    tier0_targets: 7
     owned_start_nodes: 6
 
   xl:
@@ -113,15 +113,14 @@ profiles:
     owned_start_nodes: 10
 
   hardened:
-    description: "Large, hardened environment — very few misconfigurations"
+    description: "Large, strictly tiered hardened environment — flat structure, minimal groups, zero tolerance"
     node_count: 3000
-    user_ratio: 0.50
-    group_ratio: 0.22
-    computer_ratio: 0.18
-    group_nesting_depth: 3
-    acl_edge_density: 0.001
-    session_density: 0.08
-    misconfiguration_rate: 0.02
-    tier0_targets: 3
-    owned_start_nodes: 3
-
+    user_ratio: 0.60
+    group_ratio: 0.10
+    computer_ratio: 0.25
+    group_nesting_depth: 1
+    acl_edge_density: 0.0003
+    session_density: 0.04
+    misconfiguration_rate: 0.01
+    tier0_targets: 2
+    owned_start_nodes: 2

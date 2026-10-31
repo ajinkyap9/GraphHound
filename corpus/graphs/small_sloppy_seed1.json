@@ -1,0 +1,8836 @@
+{
+  "nodes": [
+    {
+      "id": "computer0000",
+      "name": "DC01.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": true
+    },
+    {
+      "id": "computer0001",
+      "name": "COMP0001.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0002",
+      "name": "COMP0002.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0003",
+      "name": "COMP0003.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0004",
+      "name": "COMP0004.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0005",
+      "name": "COMP0005.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0006",
+      "name": "COMP0006.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0007",
+      "name": "COMP0007.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0008",
+      "name": "COMP0008.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0009",
+      "name": "COMP0009.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0010",
+      "name": "COMP0010.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0011",
+      "name": "COMP0011.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0012",
+      "name": "COMP0012.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0013",
+      "name": "COMP0013.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0014",
+      "name": "COMP0014.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0015",
+      "name": "COMP0015.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0016",
+      "name": "COMP0016.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0017",
+      "name": "COMP0017.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0018",
+      "name": "COMP0018.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0019",
+      "name": "COMP0019.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0020",
+      "name": "COMP0020.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0021",
+      "name": "COMP0021.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0022",
+      "name": "COMP0022.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0023",
+      "name": "COMP0023.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0024",
+      "name": "COMP0024.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0025",
+      "name": "COMP0025.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0026",
+      "name": "COMP0026.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "domain0000",
+      "name": "corp.test",
+      "kind": "Domain",
+      "owned": false,
+      "high_value": true
+    },
+    {
+      "id": "gpo0000",
+      "name": "GPO-0000",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0001",
+      "name": "GPO-0001",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0002",
+      "name": "GPO-0002",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0003",
+      "name": "GPO-0003",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0004",
+      "name": "GPO-0004",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0005",
+      "name": "GPO-0005",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0006",
+      "name": "GPO-0006",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0007",
+      "name": "GPO-0007",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0008",
+      "name": "GPO-0008",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0000",
+      "name": "DOMAIN ADMINS@corp.test",
+      "kind": "Group",
+      "owned": false,
+      "high_value": true
+    },
+    {
+      "id": "group0001",
+      "name": "DOMAIN CONTROLLERS@corp.test",
+      "kind": "Group",
+      "owned": false,
+      "high_value": true
+    },
+    {
+      "id": "group0002",
+      "name": "GRP-0002",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0003",
+      "name": "GRP-0003",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0004",
+      "name": "GRP-0004",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0005",
+      "name": "GRP-0005",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0006",
+      "name": "GRP-0006",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0007",
+      "name": "GRP-0007",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0008",
+      "name": "GRP-0008",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0009",
+      "name": "GRP-0009",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0010",
+      "name": "GRP-0010",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0011",
+      "name": "GRP-0011",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0012",
+      "name": "GRP-0012",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0013",
+      "name": "GRP-0013",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0014",
+      "name": "GRP-0014",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0015",
+      "name": "GRP-0015",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0016",
+      "name": "GRP-0016",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0017",
+      "name": "GRP-0017",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0018",
+      "name": "GRP-0018",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0019",
+      "name": "GRP-0019",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0020",
+      "name": "GRP-0020",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0021",
+      "name": "GRP-0021",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0022",
+      "name": "GRP-0022",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0023",
+      "name": "GRP-0023",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0024",
+      "name": "GRP-0024",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0025",
+      "name": "GRP-0025",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0026",
+      "name": "GRP-0026",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0027",
+      "name": "GRP-0027",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0028",
+      "name": "GRP-0028",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0029",
+      "name": "GRP-0029",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0030",
+      "name": "GRP-0030",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0031",
+      "name": "GRP-0031",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0032",
+      "name": "GRP-0032",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0033",
+      "name": "GRP-0033",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0034",
+      "name": "GRP-0034",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0035",
+      "name": "GRP-0035",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0036",
+      "name": "GRP-0036",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0000",
+      "name": "OU-0000",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0001",
+      "name": "OU-0001",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0002",
+      "name": "OU-0002",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0003",
+      "name": "OU-0003",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0004",
+      "name": "OU-0004",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0005",
+      "name": "OU-0005",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0006",
+      "name": "OU-0006",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0007",
+      "name": "OU-0007",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0008",
+      "name": "OU-0008",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0000",
+      "name": "user0000@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0001",
+      "name": "user0001@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0002",
+      "name": "user0002@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0003",
+      "name": "user0003@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0004",
+      "name": "user0004@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0005",
+      "name": "user0005@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0006",
+      "name": "user0006@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0007",
+      "name": "user0007@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0008",
+      "name": "user0008@corp.test",
+      "kind": "User",
+      "owned": true,
+      "high_value": false
+    },
+    {
+      "id": "user0009",
+      "name": "user0009@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0010",
+      "name": "user0010@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0011",
+      "name": "user0011@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0012",
+      "name": "user0012@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0013",
+      "name": "user0013@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0014",
+      "name": "user0014@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0015",
+      "name": "user0015@corp.test",
+      "kind": "User",
+      "owned": true,
+      "high_value": false
+    },
+    {
+      "id": "user0016",
+      "name": "user0016@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0017",
+      "name": "user0017@corp.test",
+      "kind": "User",
+      "owned": true,
+      "high_value": false
+    },
+    {
+      "id": "user0018",
+      "name": "user0018@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0019",
+      "name": "user0019@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0020",
+      "name": "user0020@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0021",
+      "name": "user0021@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0022",
+      "name": "user0022@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0023",
+      "name": "user0023@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0024",
+      "name": "user0024@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0025",
+      "name": "user0025@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0026",
+      "name": "user0026@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0027",
+      "name": "user0027@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0028",
+      "name": "user0028@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0029",
+      "name": "user0029@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0030",
+      "name": "user0030@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0031",
+      "name": "user0031@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0032",
+      "name": "user0032@corp.test",
+      "kind": "User",
+      "owned": true,
+      "high_value": false
+    },
+    {
+      "id": "user0033",
+      "name": "user0033@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0034",
+      "name": "user0034@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0035",
+      "name": "user0035@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0036",
+      "name": "user0036@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0037",
+      "name": "user0037@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0038",
+      "name": "user0038@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0039",
+      "name": "user0039@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0040",
+      "name": "user0040@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0041",
+      "name": "user0041@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0042",
+      "name": "user0042@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0043",
+      "name": "user0043@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0044",
+      "name": "user0044@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0045",
+      "name": "user0045@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0046",
+      "name": "user0046@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0047",
+      "name": "user0047@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0048",
+      "name": "user0048@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0049",
+      "name": "user0049@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0050",
+      "name": "user0050@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0051",
+      "name": "user0051@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0052",
+      "name": "user0052@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0053",
+      "name": "user0053@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0054",
+      "name": "user0054@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0055",
+      "name": "user0055@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0056",
+      "name": "user0056@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0057",
+      "name": "user0057@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0058",
+      "name": "user0058@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0059",
+      "name": "user0059@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0060",
+      "name": "user0060@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0061",
+      "name": "user0061@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0062",
+      "name": "user0062@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0063",
+      "name": "user0063@corp.test",
+      "kind": "User",
+      "owned": true,
+      "high_value": false
+    },
+    {
+      "id": "user0064",
+      "name": "user0064@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0065",
+      "name": "user0065@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0066",
+      "name": "user0066@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "computer0000",
+      "target": "group0007",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0000",
+      "target": "group0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0000",
+      "target": "group0012",
+      "type": "AddMember"
+    },
+    {
+      "source": "computer0000",
+      "target": "user0020",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0000",
+      "target": "user0027",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0000",
+      "target": "user0063",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0001",
+      "target": "computer0002",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0001",
+      "target": "computer0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0001",
+      "target": "gpo0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0001",
+      "target": "group0012",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0001",
+      "target": "ou0005",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0001",
+      "target": "user0019",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0001",
+      "target": "user0039",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0001",
+      "target": "user0042",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0001",
+      "target": "user0047",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0002",
+      "target": "gpo0003",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0002",
+      "target": "group0000",
+      "type": "AddMember"
+    },
+    {
+      "source": "computer0002",
+      "target": "group0009",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0002",
+      "target": "group0028",
+      "type": "AddMember"
+    },
+    {
+      "source": "computer0002",
+      "target": "ou0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0002",
+      "target": "user0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0002",
+      "target": "user0012",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0002",
+      "target": "user0022",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0002",
+      "target": "user0039",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0002",
+      "target": "user0040",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0003",
+      "target": "computer0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0003",
+      "target": "group0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0003",
+      "target": "group0034",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0003",
+      "target": "user0003",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0003",
+      "target": "user0054",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0004",
+      "target": "computer0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0004",
+      "target": "computer0017",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0004",
+      "target": "gpo0006",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0004",
+      "target": "group0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0004",
+      "target": "group0009",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0004",
+      "target": "group0024",
+      "type": "AddMember"
+    },
+    {
+      "source": "computer0004",
+      "target": "group0033",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0004",
+      "target": "ou0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0004",
+      "target": "ou0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0004",
+      "target": "user0010",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0004",
+      "target": "user0047",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0004",
+      "target": "user0063",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0005",
+      "target": "group0003",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0005",
+      "target": "group0021",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0005",
+      "target": "group0025",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0005",
+      "target": "group0033",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0005",
+      "target": "ou0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0005",
+      "target": "ou0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0005",
+      "target": "user0025",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0005",
+      "target": "user0038",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0005",
+      "target": "user0056",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0006",
+      "target": "computer0015",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0006",
+      "target": "gpo0008",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0006",
+      "target": "group0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0006",
+      "target": "ou0002",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0006",
+      "target": "user0047",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0006",
+      "target": "user0050",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0006",
+      "target": "user0062",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0007",
+      "target": "computer0011",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0007",
+      "target": "gpo0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0007",
+      "target": "group0013",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0007",
+      "target": "group0031",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0007",
+      "target": "ou0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0007",
+      "target": "ou0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0007",
+      "target": "user0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0007",
+      "target": "user0013",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0007",
+      "target": "user0016",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0007",
+      "target": "user0023",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0007",
+      "target": "user0028",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0008",
+      "target": "group0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0008",
+      "target": "group0017",
+      "type": "AddMember"
+    },
+    {
+      "source": "computer0008",
+      "target": "user0014",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0008",
+      "target": "user0033",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0008",
+      "target": "user0042",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0008",
+      "target": "user0048",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0008",
+      "target": "user0065",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0009",
+      "target": "computer0004",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0009",
+      "target": "computer0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0009",
+      "target": "group0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0009",
+      "target": "group0015",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0009",
+      "target": "group0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0000",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0005",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0015",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0016",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0018",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0026",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0055",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0009",
+      "target": "user0061",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0010",
+      "target": "computer0003",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0010",
+      "target": "computer0003",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0010",
+      "target": "computer0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0010",
+      "target": "computer0023",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0010",
+      "target": "group0017",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0010",
+      "target": "group0021",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0010",
+      "target": "ou0002",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0010",
+      "target": "user0012",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0010",
+      "target": "user0041",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0011",
+      "target": "computer0003",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0011",
+      "target": "group0014",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0011",
+      "target": "group0033",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0011",
+      "target": "ou0006",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0011",
+      "target": "user0020",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0011",
+      "target": "user0022",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0011",
+      "target": "user0027",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0011",
+      "target": "user0040",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0012",
+      "target": "computer0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0012",
+      "target": "computer0017",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0012",
+      "target": "computer0017",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0012",
+      "target": "group0026",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0012",
+      "target": "user0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0012",
+      "target": "user0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0012",
+      "target": "user0008",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0012",
+      "target": "user0011",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0012",
+      "target": "user0016",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0012",
+      "target": "user0018",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0012",
+      "target": "user0037",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0012",
+      "target": "user0054",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0013",
+      "target": "computer0016",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0013",
+      "target": "group0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0013",
+      "target": "group0014",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0013",
+      "target": "group0015",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0013",
+      "target": "group0028",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0013",
+      "target": "ou0008",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0013",
+      "target": "user0049",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0014",
+      "target": "computer0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0014",
+      "target": "gpo0005",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0014",
+      "target": "group0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0014",
+      "target": "group0013",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0014",
+      "target": "group0028",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0014",
+      "target": "user0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0014",
+      "target": "user0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0014",
+      "target": "user0025",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0014",
+      "target": "user0044",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0014",
+      "target": "user0051",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0014",
+      "target": "user0054",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0015",
+      "target": "computer0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0015",
+      "target": "gpo0002",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0015",
+      "target": "group0025",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0015",
+      "target": "user0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0015",
+      "target": "user0025",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0015",
+      "target": "user0061",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0016",
+      "target": "group0032",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0016",
+      "target": "user0044",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0016",
+      "target": "user0046",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0017",
+      "target": "computer0008",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0017",
+      "target": "computer0022",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0017",
+      "target": "gpo0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0017",
+      "target": "group0010",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0017",
+      "target": "group0023",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0017",
+      "target": "group0030",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0017",
+      "target": "group0030",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0017",
+      "target": "user0011",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0017",
+      "target": "user0030",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0017",
+      "target": "user0042",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0017",
+      "target": "user0056",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0018",
+      "target": "gpo0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0018",
+      "target": "group0014",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0018",
+      "target": "group0018",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0018",
+      "target": "group0018",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0018",
+      "target": "group0022",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0018",
+      "target": "ou0003",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0018",
+      "target": "user0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0018",
+      "target": "user0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0018",
+      "target": "user0010",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0018",
+      "target": "user0027",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0018",
+      "target": "user0041",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0019",
+      "target": "computer0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0019",
+      "target": "computer0024",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0019",
+      "target": "domain0000",
+      "type": "DCSync"
+    },
+    {
+      "source": "computer0019",
+      "target": "group0019",
+      "type": "AddMember"
+    },
+    {
+      "source": "computer0019",
+      "target": "group0027",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0020",
+      "target": "group0005",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0020",
+      "target": "group0016",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0020",
+      "target": "group0018",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0020",
+      "target": "group0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0020",
+      "target": "ou0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0021",
+      "target": "computer0006",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0021",
+      "target": "computer0010",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0021",
+      "target": "computer0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0021",
+      "target": "gpo0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0021",
+      "target": "group0030",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0021",
+      "target": "ou0000",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0021",
+      "target": "user0003",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0021",
+      "target": "user0014",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0021",
+      "target": "user0024",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0021",
+      "target": "user0054",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0022",
+      "target": "computer0021",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0022",
+      "target": "group0012",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0022",
+      "target": "group0016",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0022",
+      "target": "group0018",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0022",
+      "target": "user0011",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0023",
+      "target": "group0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0023",
+      "target": "group0023",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0023",
+      "target": "ou0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0023",
+      "target": "user0004",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0023",
+      "target": "user0005",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0023",
+      "target": "user0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0023",
+      "target": "user0046",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0024",
+      "target": "computer0016",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0024",
+      "target": "gpo0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0024",
+      "target": "group0019",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0024",
+      "target": "ou0005",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0024",
+      "target": "user0027",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0024",
+      "target": "user0052",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0025",
+      "target": "computer0022",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0025",
+      "target": "group0021",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0025",
+      "target": "group0023",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0025",
+      "target": "group0030",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0025",
+      "target": "ou0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0025",
+      "target": "user0001",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0025",
+      "target": "user0037",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0025",
+      "target": "user0058",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0025",
+      "target": "user0066",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0026",
+      "target": "computer0015",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "computer0026",
+      "target": "gpo0003",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0026",
+      "target": "gpo0005",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0026",
+      "target": "gpo0005",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0026",
+      "target": "group0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0026",
+      "target": "group0009",
+      "type": "AddMember"
+    },
+    {
+      "source": "computer0026",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0026",
+      "target": "group0014",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0026",
+      "target": "group0023",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0026",
+      "target": "ou0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0026",
+      "target": "user0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0026",
+      "target": "user0009",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0026",
+      "target": "user0014",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0026",
+      "target": "user0019",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0026",
+      "target": "user0024",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0026",
+      "target": "user0053",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0026",
+      "target": "user0055",
+      "type": "GenericAll"
+    },
+    {
+      "source": "domain0000",
+      "target": "gpo0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "domain0000",
+      "target": "gpo0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "domain0000",
+      "target": "group0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "domain0000",
+      "target": "group0020",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0000",
+      "target": "computer0006",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0000",
+      "target": "computer0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0000",
+      "target": "group0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0000",
+      "target": "group0023",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0000",
+      "target": "group0031",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0000",
+      "target": "user0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "gpo0001",
+      "target": "computer0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0001",
+      "target": "computer0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0001",
+      "target": "gpo0005",
+      "type": "Owns"
+    },
+    {
+      "source": "gpo0001",
+      "target": "gpo0006",
+      "type": "Owns"
+    },
+    {
+      "source": "gpo0001",
+      "target": "group0036",
+      "type": "AddMember"
+    },
+    {
+      "source": "gpo0001",
+      "target": "user0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0002",
+      "target": "group0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0002",
+      "target": "group0019",
+      "type": "Owns"
+    },
+    {
+      "source": "gpo0002",
+      "target": "group0028",
+      "type": "Owns"
+    },
+    {
+      "source": "gpo0002",
+      "target": "user0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0002",
+      "target": "user0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0002",
+      "target": "user0040",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0002",
+      "target": "user0053",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0003",
+      "target": "computer0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0003",
+      "target": "group0026",
+      "type": "AddMember"
+    },
+    {
+      "source": "gpo0003",
+      "target": "group0033",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0003",
+      "target": "user0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "gpo0003",
+      "target": "user0035",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0003",
+      "target": "user0046",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0003",
+      "target": "user0055",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0003",
+      "target": "user0062",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0003",
+      "target": "user0065",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0004",
+      "target": "group0017",
+      "type": "Owns"
+    },
+    {
+      "source": "gpo0004",
+      "target": "ou0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0004",
+      "target": "user0012",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0004",
+      "target": "user0027",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0004",
+      "target": "user0051",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0005",
+      "target": "computer0013",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0005",
+      "target": "group0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0005",
+      "target": "group0013",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "gpo0005",
+      "target": "group0018",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0005",
+      "target": "group0022",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0005",
+      "target": "group0022",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0005",
+      "target": "group0023",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0005",
+      "target": "group0027",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0005",
+      "target": "ou0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0005",
+      "target": "user0016",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0005",
+      "target": "user0039",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0005",
+      "target": "user0044",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0005",
+      "target": "user0046",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0005",
+      "target": "user0065",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0006",
+      "target": "computer0010",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0006",
+      "target": "computer0010",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "gpo0006",
+      "target": "computer0021",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0006",
+      "target": "group0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0006",
+      "target": "group0028",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0006",
+      "target": "group0032",
+      "type": "AddMember"
+    },
+    {
+      "source": "gpo0006",
+      "target": "group0032",
+      "type": "Owns"
+    },
+    {
+      "source": "gpo0006",
+      "target": "user0059",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "gpo0007",
+      "target": "computer0004",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0007",
+      "target": "computer0011",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "gpo0007",
+      "target": "gpo0008",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0007",
+      "target": "group0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0007",
+      "target": "group0025",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0007",
+      "target": "group0027",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0007",
+      "target": "group0030",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0007",
+      "target": "user0019",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "gpo0007",
+      "target": "user0022",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0007",
+      "target": "user0029",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0007",
+      "target": "user0034",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "gpo0007",
+      "target": "user0054",
+      "type": "Owns"
+    },
+    {
+      "source": "gpo0007",
+      "target": "user0061",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0008",
+      "target": "computer0017",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0008",
+      "target": "group0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0008",
+      "target": "group0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0008",
+      "target": "group0024",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0008",
+      "target": "group0033",
+      "type": "GenericAll"
+    },
+    {
+      "source": "gpo0008",
+      "target": "user0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0008",
+      "target": "user0011",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "gpo0008",
+      "target": "user0031",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "gpo0008",
+      "target": "user0056",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0000",
+      "target": "computer0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0000",
+      "target": "computer0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0000",
+      "target": "computer0016",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0000",
+      "target": "group0028",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0000",
+      "target": "group0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0000",
+      "target": "group0036",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0000",
+      "target": "ou0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0000",
+      "target": "user0041",
+      "type": "Owns"
+    },
+    {
+      "source": "group0001",
+      "target": "computer0004",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0001",
+      "target": "computer0005",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0001",
+      "target": "computer0014",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0001",
+      "target": "computer0020",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0001",
+      "target": "gpo0005",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0001",
+      "target": "group0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0001",
+      "target": "group0034",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0001",
+      "target": "ou0000",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0001",
+      "target": "user0028",
+      "type": "Owns"
+    },
+    {
+      "source": "group0002",
+      "target": "computer0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0002",
+      "target": "computer0010",
+      "type": "Owns"
+    },
+    {
+      "source": "group0002",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0002",
+      "target": "group0012",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0002",
+      "target": "group0033",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0002",
+      "target": "user0000",
+      "type": "Owns"
+    },
+    {
+      "source": "group0002",
+      "target": "user0025",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0002",
+      "target": "user0042",
+      "type": "Owns"
+    },
+    {
+      "source": "group0002",
+      "target": "user0045",
+      "type": "Owns"
+    },
+    {
+      "source": "group0002",
+      "target": "user0051",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0002",
+      "target": "user0055",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0003",
+      "target": "computer0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0003",
+      "target": "computer0005",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0003",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0003",
+      "target": "group0005",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0003",
+      "target": "group0024",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0003",
+      "target": "group0027",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0003",
+      "target": "ou0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0003",
+      "target": "user0042",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0003",
+      "target": "user0064",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0004",
+      "target": "computer0022",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0004",
+      "target": "gpo0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0004",
+      "target": "gpo0008",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0004",
+      "target": "group0002",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0004",
+      "target": "group0030",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0004",
+      "target": "group0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0004",
+      "target": "ou0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0004",
+      "target": "user0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0004",
+      "target": "user0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0004",
+      "target": "user0026",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0005",
+      "target": "computer0018",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0005",
+      "target": "computer0019",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0005",
+      "target": "group0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0005",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0005",
+      "target": "user0007",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0005",
+      "target": "user0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0005",
+      "target": "user0034",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0005",
+      "target": "user0065",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0006",
+      "target": "group0022",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0006",
+      "target": "group0033",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0006",
+      "target": "ou0001",
+      "type": "Owns"
+    },
+    {
+      "source": "group0006",
+      "target": "user0011",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0006",
+      "target": "user0039",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0006",
+      "target": "user0042",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0006",
+      "target": "user0043",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0007",
+      "target": "computer0000",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0007",
+      "target": "computer0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0007",
+      "target": "computer0015",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0007",
+      "target": "computer0017",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0007",
+      "target": "computer0018",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0007",
+      "target": "gpo0000",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0007",
+      "target": "group0013",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0007",
+      "target": "group0036",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0008",
+      "target": "computer0004",
+      "type": "Owns"
+    },
+    {
+      "source": "group0008",
+      "target": "computer0018",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0008",
+      "target": "computer0023",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0008",
+      "target": "group0000",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0008",
+      "target": "group0003",
+      "type": "Owns"
+    },
+    {
+      "source": "group0008",
+      "target": "group0026",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0008",
+      "target": "group0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0008",
+      "target": "user0001",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0008",
+      "target": "user0024",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0008",
+      "target": "user0024",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0008",
+      "target": "user0024",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0008",
+      "target": "user0051",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0009",
+      "target": "computer0010",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0009",
+      "target": "computer0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0009",
+      "target": "computer0025",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0009",
+      "target": "group0015",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0009",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0009",
+      "target": "user0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0009",
+      "target": "user0040",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0009",
+      "target": "user0044",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0009",
+      "target": "user0050",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0009",
+      "target": "user0052",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0009",
+      "target": "user0057",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0010",
+      "target": "computer0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0010",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0010",
+      "target": "group0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0010",
+      "target": "group0016",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0010",
+      "target": "group0027",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0010",
+      "target": "ou0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0010",
+      "target": "user0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0010",
+      "target": "user0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0010",
+      "target": "user0027",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0010",
+      "target": "user0046",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0010",
+      "target": "user0053",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0010",
+      "target": "user0053",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0010",
+      "target": "user0055",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0010",
+      "target": "user0066",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0011",
+      "target": "computer0006",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0011",
+      "target": "group0004",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0011",
+      "target": "group0009",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0011",
+      "target": "ou0001",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0011",
+      "target": "user0027",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0011",
+      "target": "user0058",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0012",
+      "target": "group0009",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0012",
+      "target": "group0013",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0012",
+      "target": "group0029",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0012",
+      "target": "group0029",
+      "type": "Owns"
+    },
+    {
+      "source": "group0012",
+      "target": "user0008",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0012",
+      "target": "user0009",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0012",
+      "target": "user0021",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0012",
+      "target": "user0033",
+      "type": "Owns"
+    },
+    {
+      "source": "group0012",
+      "target": "user0050",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0012",
+      "target": "user0065",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0013",
+      "target": "computer0011",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0013",
+      "target": "computer0015",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0013",
+      "target": "computer0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0013",
+      "target": "gpo0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0013",
+      "target": "gpo0006",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0013",
+      "target": "group0021",
+      "type": "Owns"
+    },
+    {
+      "source": "group0013",
+      "target": "group0025",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0013",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0013",
+      "target": "group0036",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0013",
+      "target": "ou0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0013",
+      "target": "user0005",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0013",
+      "target": "user0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0013",
+      "target": "user0016",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0013",
+      "target": "user0056",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0013",
+      "target": "user0057",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0013",
+      "target": "user0062",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0014",
+      "target": "computer0013",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0014",
+      "target": "computer0014",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0014",
+      "target": "group0010",
+      "type": "Owns"
+    },
+    {
+      "source": "group0014",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0014",
+      "target": "group0024",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0014",
+      "target": "user0004",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0014",
+      "target": "user0032",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0014",
+      "target": "user0052",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0014",
+      "target": "user0059",
+      "type": "Owns"
+    },
+    {
+      "source": "group0015",
+      "target": "computer0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0015",
+      "target": "computer0026",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0015",
+      "target": "ou0001",
+      "type": "Owns"
+    },
+    {
+      "source": "group0015",
+      "target": "user0023",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0015",
+      "target": "user0041",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0015",
+      "target": "user0048",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0016",
+      "target": "computer0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0016",
+      "target": "group0003",
+      "type": "Owns"
+    },
+    {
+      "source": "group0016",
+      "target": "group0022",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0016",
+      "target": "group0027",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0016",
+      "target": "user0008",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0016",
+      "target": "user0035",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0016",
+      "target": "user0051",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0016",
+      "target": "user0060",
+      "type": "Owns"
+    },
+    {
+      "source": "group0016",
+      "target": "user0060",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0016",
+      "target": "user0065",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0017",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0017",
+      "target": "group0025",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0017",
+      "target": "group0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0017",
+      "target": "ou0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0017",
+      "target": "ou0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0017",
+      "target": "user0040",
+      "type": "Owns"
+    },
+    {
+      "source": "group0017",
+      "target": "user0040",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0017",
+      "target": "user0048",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0018",
+      "target": "computer0015",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0018",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0018",
+      "target": "group0027",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0018",
+      "target": "group0035",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0018",
+      "target": "user0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0018",
+      "target": "user0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0018",
+      "target": "user0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0018",
+      "target": "user0029",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0018",
+      "target": "user0037",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0019",
+      "target": "gpo0007",
+      "type": "Owns"
+    },
+    {
+      "source": "group0019",
+      "target": "group0011",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0019",
+      "target": "group0016",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0019",
+      "target": "group0024",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0019",
+      "target": "ou0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0019",
+      "target": "ou0008",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0019",
+      "target": "user0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0019",
+      "target": "user0029",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0019",
+      "target": "user0044",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0019",
+      "target": "user0053",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0020",
+      "target": "group0033",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0020",
+      "target": "group0036",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0020",
+      "target": "ou0002",
+      "type": "Owns"
+    },
+    {
+      "source": "group0020",
+      "target": "user0025",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0020",
+      "target": "user0065",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0021",
+      "target": "gpo0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0021",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0021",
+      "target": "group0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0021",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0021",
+      "target": "group0030",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0021",
+      "target": "user0009",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0021",
+      "target": "user0015",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0021",
+      "target": "user0030",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0021",
+      "target": "user0034",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0021",
+      "target": "user0043",
+      "type": "Owns"
+    },
+    {
+      "source": "group0021",
+      "target": "user0050",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0022",
+      "target": "computer0015",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0022",
+      "target": "group0001",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0022",
+      "target": "group0002",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0022",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0022",
+      "target": "ou0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0022",
+      "target": "user0057",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0023",
+      "target": "computer0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0023",
+      "target": "computer0010",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0023",
+      "target": "gpo0002",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0023",
+      "target": "group0015",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0023",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0023",
+      "target": "ou0003",
+      "type": "Owns"
+    },
+    {
+      "source": "group0023",
+      "target": "user0031",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0023",
+      "target": "user0035",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0023",
+      "target": "user0061",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0024",
+      "target": "computer0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0024",
+      "target": "computer0023",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0024",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0024",
+      "target": "group0002",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0024",
+      "target": "group0008",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0024",
+      "target": "group0017",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0024",
+      "target": "ou0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0024",
+      "target": "ou0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0024",
+      "target": "ou0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0024",
+      "target": "user0015",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0024",
+      "target": "user0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0024",
+      "target": "user0063",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0025",
+      "target": "computer0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0025",
+      "target": "computer0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0025",
+      "target": "group0011",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0025",
+      "target": "group0030",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0025",
+      "target": "group0035",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0025",
+      "target": "user0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0025",
+      "target": "user0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0025",
+      "target": "user0013",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0025",
+      "target": "user0042",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0025",
+      "target": "user0046",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0026",
+      "target": "computer0015",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0026",
+      "target": "computer0019",
+      "type": "Owns"
+    },
+    {
+      "source": "group0026",
+      "target": "gpo0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0026",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0026",
+      "target": "group0011",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0026",
+      "target": "group0020",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0026",
+      "target": "user0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0026",
+      "target": "user0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0026",
+      "target": "user0025",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0026",
+      "target": "user0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0026",
+      "target": "user0047",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0026",
+      "target": "user0050",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0026",
+      "target": "user0051",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0027",
+      "target": "computer0014",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0027",
+      "target": "domain0000",
+      "type": "DCSync"
+    },
+    {
+      "source": "group0027",
+      "target": "gpo0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0027",
+      "target": "group0000",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0027",
+      "target": "group0003",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0027",
+      "target": "group0030",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0027",
+      "target": "ou0008",
+      "type": "Owns"
+    },
+    {
+      "source": "group0027",
+      "target": "user0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0027",
+      "target": "user0012",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0027",
+      "target": "user0036",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0027",
+      "target": "user0059",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0028",
+      "target": "computer0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0028",
+      "target": "computer0006",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0028",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0028",
+      "target": "group0020",
+      "type": "Owns"
+    },
+    {
+      "source": "group0028",
+      "target": "group0026",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0028",
+      "target": "group0030",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0028",
+      "target": "ou0006",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0028",
+      "target": "user0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0028",
+      "target": "user0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0028",
+      "target": "user0035",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0028",
+      "target": "user0052",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0029",
+      "target": "computer0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0029",
+      "target": "computer0014",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0029",
+      "target": "computer0017",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0029",
+      "target": "domain0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0029",
+      "target": "gpo0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0029",
+      "target": "gpo0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0029",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0029",
+      "target": "group0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0029",
+      "target": "group0024",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0029",
+      "target": "group0033",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0029",
+      "target": "user0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0029",
+      "target": "user0053",
+      "type": "Owns"
+    },
+    {
+      "source": "group0029",
+      "target": "user0054",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0029",
+      "target": "user0059",
+      "type": "Owns"
+    },
+    {
+      "source": "group0030",
+      "target": "computer0003",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0030",
+      "target": "computer0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0030",
+      "target": "group0004",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0030",
+      "target": "group0023",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0030",
+      "target": "group0027",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0030",
+      "target": "user0006",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0030",
+      "target": "user0009",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0030",
+      "target": "user0013",
+      "type": "Owns"
+    },
+    {
+      "source": "group0030",
+      "target": "user0066",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0031",
+      "target": "group0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0031",
+      "target": "group0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0031",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0031",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0031",
+      "target": "ou0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0031",
+      "target": "user0018",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0031",
+      "target": "user0030",
+      "type": "Owns"
+    },
+    {
+      "source": "group0031",
+      "target": "user0050",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0031",
+      "target": "user0056",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0032",
+      "target": "computer0018",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0032",
+      "target": "computer0021",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0032",
+      "target": "gpo0004",
+      "type": "Owns"
+    },
+    {
+      "source": "group0032",
+      "target": "group0009",
+      "type": "Owns"
+    },
+    {
+      "source": "group0032",
+      "target": "ou0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0032",
+      "target": "user0015",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0032",
+      "target": "user0039",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0033",
+      "target": "computer0022",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0033",
+      "target": "group0023",
+      "type": "Owns"
+    },
+    {
+      "source": "group0033",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0033",
+      "target": "ou0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0033",
+      "target": "user0002",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0033",
+      "target": "user0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0033",
+      "target": "user0024",
+      "type": "Owns"
+    },
+    {
+      "source": "group0034",
+      "target": "computer0003",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0034",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0034",
+      "target": "group0030",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0034",
+      "target": "group0035",
+      "type": "Owns"
+    },
+    {
+      "source": "group0034",
+      "target": "user0039",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0034",
+      "target": "user0046",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0035",
+      "target": "computer0021",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0035",
+      "target": "group0002",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0035",
+      "target": "group0005",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0035",
+      "target": "group0006",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0035",
+      "target": "group0010",
+      "type": "Owns"
+    },
+    {
+      "source": "group0035",
+      "target": "group0032",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0035",
+      "target": "user0036",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0035",
+      "target": "user0055",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0036",
+      "target": "group0003",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "group0036",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0036",
+      "target": "user0036",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0036",
+      "target": "user0047",
+      "type": "Owns"
+    },
+    {
+      "source": "ou0000",
+      "target": "computer0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0000",
+      "target": "group0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0000",
+      "target": "user0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0000",
+      "target": "user0004",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0000",
+      "target": "user0049",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0001",
+      "target": "group0009",
+      "type": "AddMember"
+    },
+    {
+      "source": "ou0001",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0001",
+      "target": "group0025",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0001",
+      "target": "user0020",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0001",
+      "target": "user0047",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0001",
+      "target": "user0048",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0001",
+      "target": "user0056",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0001",
+      "target": "user0061",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0002",
+      "target": "computer0009",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0002",
+      "target": "gpo0000",
+      "type": "Owns"
+    },
+    {
+      "source": "ou0002",
+      "target": "user0015",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0002",
+      "target": "user0065",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0003",
+      "target": "computer0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0003",
+      "target": "computer0013",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0003",
+      "target": "computer0021",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0003",
+      "target": "group0034",
+      "type": "Owns"
+    },
+    {
+      "source": "ou0003",
+      "target": "ou0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0003",
+      "target": "ou0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0003",
+      "target": "user0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0003",
+      "target": "user0026",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0003",
+      "target": "user0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0003",
+      "target": "user0044",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "ou0003",
+      "target": "user0049",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0004",
+      "target": "computer0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0004",
+      "target": "group0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "ou0004",
+      "target": "group0018",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0004",
+      "target": "group0026",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0004",
+      "target": "group0030",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0004",
+      "target": "user0029",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0005",
+      "target": "computer0015",
+      "type": "Owns"
+    },
+    {
+      "source": "ou0005",
+      "target": "computer0018",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0005",
+      "target": "gpo0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0005",
+      "target": "gpo0004",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0005",
+      "target": "group0018",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0005",
+      "target": "user0050",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0006",
+      "target": "computer0015",
+      "type": "Owns"
+    },
+    {
+      "source": "ou0006",
+      "target": "computer0018",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0006",
+      "target": "gpo0000",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0006",
+      "target": "gpo0002",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "ou0006",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0006",
+      "target": "group0016",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0006",
+      "target": "group0018",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0006",
+      "target": "group0019",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "ou0006",
+      "target": "group0022",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0006",
+      "target": "user0013",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0006",
+      "target": "user0026",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0006",
+      "target": "user0031",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0006",
+      "target": "user0041",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "ou0006",
+      "target": "user0052",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0006",
+      "target": "user0058",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0006",
+      "target": "user0065",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0007",
+      "target": "group0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0007",
+      "target": "group0024",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "ou0007",
+      "target": "group0026",
+      "type": "AddMember"
+    },
+    {
+      "source": "ou0007",
+      "target": "group0026",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0007",
+      "target": "group0034",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0007",
+      "target": "user0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0007",
+      "target": "user0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0007",
+      "target": "user0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0007",
+      "target": "user0029",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0007",
+      "target": "user0033",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "ou0007",
+      "target": "user0042",
+      "type": "GenericAll"
+    },
+    {
+      "source": "ou0008",
+      "target": "computer0016",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "ou0008",
+      "target": "gpo0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0008",
+      "target": "group0026",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0008",
+      "target": "user0007",
+      "type": "Owns"
+    },
+    {
+      "source": "ou0008",
+      "target": "user0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0000",
+      "target": "computer0014",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0000",
+      "target": "group0013",
+      "type": "Owns"
+    },
+    {
+      "source": "user0000",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0000",
+      "target": "group0030",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0000",
+      "target": "group0032",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0000",
+      "target": "ou0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0000",
+      "target": "user0002",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0000",
+      "target": "user0008",
+      "type": "Owns"
+    },
+    {
+      "source": "user0000",
+      "target": "user0013",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0000",
+      "target": "user0049",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0000",
+      "target": "user0051",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0001",
+      "target": "computer0000",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0001",
+      "target": "computer0004",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0001",
+      "target": "computer0020",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0001",
+      "target": "domain0000",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0001",
+      "target": "gpo0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0001",
+      "target": "group0006",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0001",
+      "target": "group0010",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0001",
+      "target": "ou0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0001",
+      "target": "ou0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0001",
+      "target": "user0008",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0001",
+      "target": "user0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0001",
+      "target": "user0032",
+      "type": "HasSession"
+    },
+    {
+      "source": "user0001",
+      "target": "user0056",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0001",
+      "target": "user0058",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0001",
+      "target": "user0058",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0001",
+      "target": "user0061",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0002",
+      "target": "computer0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0002",
+      "target": "computer0004",
+      "type": "Owns"
+    },
+    {
+      "source": "user0002",
+      "target": "computer0020",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0002",
+      "target": "gpo0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0002",
+      "target": "gpo0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0002",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0002",
+      "target": "group0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0002",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0002",
+      "target": "group0036",
+      "type": "Owns"
+    },
+    {
+      "source": "user0002",
+      "target": "ou0005",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0002",
+      "target": "user0001",
+      "type": "CanRDP"
+    },
+    {
+      "source": "user0002",
+      "target": "user0029",
+      "type": "Owns"
+    },
+    {
+      "source": "user0002",
+      "target": "user0040",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0002",
+      "target": "user0048",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0002",
+      "target": "user0056",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0003",
+      "target": "computer0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0003",
+      "target": "computer0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0003",
+      "target": "domain0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0003",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0003",
+      "target": "group0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0003",
+      "target": "group0025",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0003",
+      "target": "group0028",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0003",
+      "target": "group0032",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0003",
+      "target": "ou0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0003",
+      "target": "ou0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0003",
+      "target": "user0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0003",
+      "target": "user0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0003",
+      "target": "user0037",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0004",
+      "target": "computer0014",
+      "type": "Owns"
+    },
+    {
+      "source": "user0004",
+      "target": "computer0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0004",
+      "target": "computer0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0004",
+      "target": "gpo0003",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0004",
+      "target": "group0006",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0004",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0004",
+      "target": "group0018",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0004",
+      "target": "group0031",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0004",
+      "target": "ou0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0004",
+      "target": "user0015",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0004",
+      "target": "user0030",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0004",
+      "target": "user0054",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0005",
+      "target": "computer0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0005",
+      "target": "computer0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0005",
+      "target": "computer0021",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0005",
+      "target": "gpo0001",
+      "type": "Owns"
+    },
+    {
+      "source": "user0005",
+      "target": "gpo0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0005",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0005",
+      "target": "group0003",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0005",
+      "target": "group0012",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0005",
+      "target": "group0030",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0005",
+      "target": "group0034",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0005",
+      "target": "group0034",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0005",
+      "target": "group0036",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0005",
+      "target": "ou0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0005",
+      "target": "user0011",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0005",
+      "target": "user0013",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0005",
+      "target": "user0036",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0006",
+      "target": "computer0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0006",
+      "target": "computer0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0006",
+      "target": "group0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0006",
+      "target": "group0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0006",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0006",
+      "target": "group0025",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0006",
+      "target": "group0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0006",
+      "target": "user0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0006",
+      "target": "user0033",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0006",
+      "target": "user0034",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0006",
+      "target": "user0058",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0007",
+      "target": "gpo0004",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0007",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0007",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0007",
+      "target": "group0020",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0007",
+      "target": "group0023",
+      "type": "Owns"
+    },
+    {
+      "source": "user0007",
+      "target": "group0027",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0007",
+      "target": "group0029",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0007",
+      "target": "ou0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0007",
+      "target": "user0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0007",
+      "target": "user0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0007",
+      "target": "user0036",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0007",
+      "target": "user0042",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0007",
+      "target": "user0052",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0007",
+      "target": "user0052",
+      "type": "Owns"
+    },
+    {
+      "source": "user0007",
+      "target": "user0055",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0007",
+      "target": "user0062",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0008",
+      "target": "computer0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0008",
+      "target": "group0014",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0008",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0008",
+      "target": "group0015",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0008",
+      "target": "group0028",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0008",
+      "target": "group0029",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0008",
+      "target": "group0031",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0008",
+      "target": "user0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0008",
+      "target": "user0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0008",
+      "target": "user0020",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0008",
+      "target": "user0031",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0008",
+      "target": "user0045",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0008",
+      "target": "user0054",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0009",
+      "target": "computer0000",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0009",
+      "target": "computer0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0009",
+      "target": "computer0025",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0009",
+      "target": "gpo0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0009",
+      "target": "group0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0009",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0009",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0009",
+      "target": "group0029",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0009",
+      "target": "ou0001",
+      "type": "Owns"
+    },
+    {
+      "source": "user0009",
+      "target": "user0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0009",
+      "target": "user0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0009",
+      "target": "user0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0009",
+      "target": "user0027",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0009",
+      "target": "user0029",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0009",
+      "target": "user0032",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0009",
+      "target": "user0050",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0010",
+      "target": "computer0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0010",
+      "target": "computer0019",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0010",
+      "target": "gpo0005",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0010",
+      "target": "gpo0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0010",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0010",
+      "target": "group0021",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0010",
+      "target": "group0022",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0010",
+      "target": "group0026",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0010",
+      "target": "user0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0010",
+      "target": "user0023",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0010",
+      "target": "user0058",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0011",
+      "target": "gpo0003",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0011",
+      "target": "group0006",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0011",
+      "target": "group0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0011",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0011",
+      "target": "group0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0011",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0011",
+      "target": "group0020",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0011",
+      "target": "group0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0011",
+      "target": "group0035",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0011",
+      "target": "ou0008",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0011",
+      "target": "user0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0011",
+      "target": "user0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0011",
+      "target": "user0029",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0011",
+      "target": "user0052",
+      "type": "Owns"
+    },
+    {
+      "source": "user0011",
+      "target": "user0053",
+      "type": "Owns"
+    },
+    {
+      "source": "user0011",
+      "target": "user0055",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0011",
+      "target": "user0062",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0012",
+      "target": "computer0004",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0012",
+      "target": "computer0019",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0012",
+      "target": "computer0022",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0012",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0012",
+      "target": "group0032",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0012",
+      "target": "user0018",
+      "type": "Owns"
+    },
+    {
+      "source": "user0012",
+      "target": "user0021",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0012",
+      "target": "user0042",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0012",
+      "target": "user0051",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0013",
+      "target": "computer0000",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0013",
+      "target": "computer0006",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0013",
+      "target": "domain0000",
+      "type": "DCSync"
+    },
+    {
+      "source": "user0013",
+      "target": "gpo0000",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0013",
+      "target": "group0012",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0013",
+      "target": "group0023",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0013",
+      "target": "group0024",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0013",
+      "target": "group0027",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0013",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0013",
+      "target": "group0035",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0013",
+      "target": "group0036",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0013",
+      "target": "ou0000",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0013",
+      "target": "user0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0013",
+      "target": "user0006",
+      "type": "Owns"
+    },
+    {
+      "source": "user0013",
+      "target": "user0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0013",
+      "target": "user0030",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0013",
+      "target": "user0051",
+      "type": "Owns"
+    },
+    {
+      "source": "user0014",
+      "target": "computer0001",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0014",
+      "target": "computer0023",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0014",
+      "target": "gpo0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0014",
+      "target": "gpo0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0014",
+      "target": "group0016",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0014",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0014",
+      "target": "group0018",
+      "type": "Owns"
+    },
+    {
+      "source": "user0014",
+      "target": "group0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0014",
+      "target": "group0030",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0014",
+      "target": "group0031",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0014",
+      "target": "user0008",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0014",
+      "target": "user0020",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0014",
+      "target": "user0027",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0014",
+      "target": "user0043",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0015",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "group0008",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0015",
+      "target": "group0013",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0015",
+      "target": "group0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0015",
+      "target": "group0021",
+      "type": "HasSession"
+    },
+    {
+      "source": "user0015",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "group0030",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "user0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0015",
+      "target": "user0005",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0015",
+      "target": "user0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0015",
+      "target": "user0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0016",
+      "target": "computer0026",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0016",
+      "target": "computer0026",
+      "type": "Owns"
+    },
+    {
+      "source": "user0016",
+      "target": "gpo0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0016",
+      "target": "group0020",
+      "type": "Owns"
+    },
+    {
+      "source": "user0016",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0016",
+      "target": "user0037",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0016",
+      "target": "user0053",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0017",
+      "target": "computer0007",
+      "type": "CanRDP"
+    },
+    {
+      "source": "user0017",
+      "target": "computer0010",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0017",
+      "target": "gpo0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0017",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0017",
+      "target": "group0023",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0017",
+      "target": "group0027",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0017",
+      "target": "group0027",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0017",
+      "target": "group0030",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0017",
+      "target": "group0034",
+      "type": "Owns"
+    },
+    {
+      "source": "user0017",
+      "target": "user0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0017",
+      "target": "user0018",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0017",
+      "target": "user0048",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0017",
+      "target": "user0063",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0017",
+      "target": "user0066",
+      "type": "Owns"
+    },
+    {
+      "source": "user0018",
+      "target": "group0005",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0018",
+      "target": "group0023",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0018",
+      "target": "group0028",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0018",
+      "target": "group0030",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0018",
+      "target": "user0015",
+      "type": "Owns"
+    },
+    {
+      "source": "user0018",
+      "target": "user0022",
+      "type": "Owns"
+    },
+    {
+      "source": "user0018",
+      "target": "user0060",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0019",
+      "target": "computer0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0019",
+      "target": "computer0013",
+      "type": "Owns"
+    },
+    {
+      "source": "user0019",
+      "target": "computer0023",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0019",
+      "target": "group0006",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0019",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0019",
+      "target": "group0017",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0019",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0019",
+      "target": "user0008",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0019",
+      "target": "user0037",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0019",
+      "target": "user0043",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0019",
+      "target": "user0047",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0019",
+      "target": "user0052",
+      "type": "Owns"
+    },
+    {
+      "source": "user0020",
+      "target": "computer0019",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0020",
+      "target": "domain0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0020",
+      "target": "group0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0020",
+      "target": "group0021",
+      "type": "Owns"
+    },
+    {
+      "source": "user0020",
+      "target": "group0023",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0020",
+      "target": "group0024",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0020",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0020",
+      "target": "group0031",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0020",
+      "target": "group0032",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0020",
+      "target": "user0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0020",
+      "target": "user0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0020",
+      "target": "user0026",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0020",
+      "target": "user0065",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0021",
+      "target": "computer0020",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0021",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0021",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0021",
+      "target": "group0009",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0021",
+      "target": "group0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0021",
+      "target": "group0030",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0021",
+      "target": "group0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0021",
+      "target": "user0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0021",
+      "target": "user0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0021",
+      "target": "user0039",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0021",
+      "target": "user0058",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0022",
+      "target": "computer0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0022",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0022",
+      "target": "group0010",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0022",
+      "target": "group0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0022",
+      "target": "group0017",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0022",
+      "target": "group0021",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0022",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0022",
+      "target": "group0034",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0022",
+      "target": "ou0000",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0022",
+      "target": "user0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0022",
+      "target": "user0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0022",
+      "target": "user0028",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0022",
+      "target": "user0033",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0022",
+      "target": "user0041",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0022",
+      "target": "user0042",
+      "type": "Owns"
+    },
+    {
+      "source": "user0022",
+      "target": "user0046",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0022",
+      "target": "user0050",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0023",
+      "target": "computer0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0023",
+      "target": "computer0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0023",
+      "target": "computer0017",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0023",
+      "target": "computer0019",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0023",
+      "target": "gpo0006",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0023",
+      "target": "group0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0023",
+      "target": "group0022",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0023",
+      "target": "group0027",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0023",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0023",
+      "target": "group0033",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0023",
+      "target": "ou0007",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0023",
+      "target": "user0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0023",
+      "target": "user0008",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0023",
+      "target": "user0020",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0023",
+      "target": "user0035",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0023",
+      "target": "user0041",
+      "type": "Owns"
+    },
+    {
+      "source": "user0023",
+      "target": "user0060",
+      "type": "Owns"
+    },
+    {
+      "source": "user0024",
+      "target": "computer0015",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0024",
+      "target": "gpo0000",
+      "type": "Owns"
+    },
+    {
+      "source": "user0024",
+      "target": "gpo0008",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0024",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0024",
+      "target": "group0000",
+      "type": "Owns"
+    },
+    {
+      "source": "user0024",
+      "target": "group0021",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0024",
+      "target": "group0034",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0024",
+      "target": "ou0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0024",
+      "target": "user0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0024",
+      "target": "user0015",
+      "type": "CanRDP"
+    },
+    {
+      "source": "user0024",
+      "target": "user0029",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0024",
+      "target": "user0039",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0024",
+      "target": "user0056",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0024",
+      "target": "user0063",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0025",
+      "target": "computer0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0025",
+      "target": "computer0003",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0025",
+      "target": "computer0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0025",
+      "target": "gpo0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0025",
+      "target": "group0009",
+      "type": "Owns"
+    },
+    {
+      "source": "user0025",
+      "target": "group0010",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0025",
+      "target": "group0027",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0025",
+      "target": "group0027",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0025",
+      "target": "group0034",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0025",
+      "target": "user0017",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0026",
+      "target": "domain0000",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0026",
+      "target": "gpo0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0026",
+      "target": "group0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0026",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0026",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0026",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0026",
+      "target": "group0035",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0026",
+      "target": "ou0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0026",
+      "target": "user0000",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0026",
+      "target": "user0011",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0026",
+      "target": "user0033",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0026",
+      "target": "user0038",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0026",
+      "target": "user0059",
+      "type": "Owns"
+    },
+    {
+      "source": "user0026",
+      "target": "user0064",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0027",
+      "target": "computer0012",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0027",
+      "target": "gpo0002",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0027",
+      "target": "group0000",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0027",
+      "target": "group0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0027",
+      "target": "group0019",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0027",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0027",
+      "target": "group0036",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0027",
+      "target": "user0011",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0027",
+      "target": "user0021",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0027",
+      "target": "user0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0027",
+      "target": "user0055",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0027",
+      "target": "user0056",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0027",
+      "target": "user0066",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0028",
+      "target": "gpo0000",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0028",
+      "target": "group0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0028",
+      "target": "group0017",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0028",
+      "target": "group0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0028",
+      "target": "group0031",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0028",
+      "target": "group0035",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0028",
+      "target": "ou0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0028",
+      "target": "user0009",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0028",
+      "target": "user0030",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0028",
+      "target": "user0046",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0028",
+      "target": "user0056",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0029",
+      "target": "computer0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0029",
+      "target": "computer0010",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0029",
+      "target": "gpo0004",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0029",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0029",
+      "target": "group0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0029",
+      "target": "group0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0029",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0029",
+      "target": "group0027",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0029",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0029",
+      "target": "user0043",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0029",
+      "target": "user0053",
+      "type": "Owns"
+    },
+    {
+      "source": "user0029",
+      "target": "user0066",
+      "type": "Owns"
+    },
+    {
+      "source": "user0030",
+      "target": "computer0014",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0030",
+      "target": "computer0019",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0030",
+      "target": "computer0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0030",
+      "target": "group0001",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0030",
+      "target": "group0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0030",
+      "target": "group0017",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0030",
+      "target": "group0017",
+      "type": "Owns"
+    },
+    {
+      "source": "user0030",
+      "target": "group0033",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0030",
+      "target": "user0023",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0030",
+      "target": "user0052",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0031",
+      "target": "computer0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0031",
+      "target": "computer0000",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0031",
+      "target": "computer0002",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0031",
+      "target": "computer0022",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0031",
+      "target": "gpo0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0031",
+      "target": "group0003",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0031",
+      "target": "group0006",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0031",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0031",
+      "target": "group0014",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0031",
+      "target": "group0018",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0031",
+      "target": "group0027",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0031",
+      "target": "ou0008",
+      "type": "Owns"
+    },
+    {
+      "source": "user0031",
+      "target": "user0025",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0031",
+      "target": "user0038",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0031",
+      "target": "user0052",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0032",
+      "target": "computer0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0032",
+      "target": "computer0005",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0032",
+      "target": "group0009",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0032",
+      "target": "group0011",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0032",
+      "target": "group0021",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0032",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0032",
+      "target": "group0023",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0032",
+      "target": "group0027",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0032",
+      "target": "group0036",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0032",
+      "target": "ou0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0032",
+      "target": "user0013",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0032",
+      "target": "user0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0032",
+      "target": "user0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0032",
+      "target": "user0043",
+      "type": "Owns"
+    },
+    {
+      "source": "user0032",
+      "target": "user0050",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0033",
+      "target": "gpo0000",
+      "type": "Owns"
+    },
+    {
+      "source": "user0033",
+      "target": "group0007",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0033",
+      "target": "group0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0033",
+      "target": "group0012",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0033",
+      "target": "group0015",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0033",
+      "target": "group0026",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0033",
+      "target": "group0029",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0033",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0033",
+      "target": "ou0005",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0033",
+      "target": "ou0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0033",
+      "target": "user0018",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0033",
+      "target": "user0020",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0033",
+      "target": "user0023",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0034",
+      "target": "gpo0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0034",
+      "target": "gpo0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0034",
+      "target": "group0014",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0034",
+      "target": "group0017",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0034",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0034",
+      "target": "group0026",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0034",
+      "target": "group0034",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0034",
+      "target": "ou0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0034",
+      "target": "user0015",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0034",
+      "target": "user0049",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0034",
+      "target": "user0051",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0034",
+      "target": "user0059",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0034",
+      "target": "user0065",
+      "type": "Owns"
+    },
+    {
+      "source": "user0035",
+      "target": "domain0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0035",
+      "target": "gpo0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0035",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0035",
+      "target": "group0004",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0035",
+      "target": "group0026",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0035",
+      "target": "group0034",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0035",
+      "target": "ou0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0035",
+      "target": "user0011",
+      "type": "Owns"
+    },
+    {
+      "source": "user0035",
+      "target": "user0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0035",
+      "target": "user0040",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0035",
+      "target": "user0043",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0035",
+      "target": "user0050",
+      "type": "Owns"
+    },
+    {
+      "source": "user0035",
+      "target": "user0052",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0035",
+      "target": "user0056",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0036",
+      "target": "computer0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0036",
+      "target": "computer0008",
+      "type": "Owns"
+    },
+    {
+      "source": "user0036",
+      "target": "computer0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0036",
+      "target": "computer0016",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0036",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0036",
+      "target": "group0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0036",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0036",
+      "target": "group0025",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0036",
+      "target": "group0029",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0036",
+      "target": "user0020",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0036",
+      "target": "user0031",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0036",
+      "target": "user0051",
+      "type": "Owns"
+    },
+    {
+      "source": "user0036",
+      "target": "user0055",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0036",
+      "target": "user0064",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0036",
+      "target": "user0066",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0037",
+      "target": "computer0001",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0037",
+      "target": "computer0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0037",
+      "target": "computer0025",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0037",
+      "target": "group0005",
+      "type": "Owns"
+    },
+    {
+      "source": "user0037",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0037",
+      "target": "group0012",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0037",
+      "target": "ou0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0037",
+      "target": "ou0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0037",
+      "target": "user0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0037",
+      "target": "user0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0037",
+      "target": "user0043",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0037",
+      "target": "user0051",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0037",
+      "target": "user0056",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0037",
+      "target": "user0057",
+      "type": "Owns"
+    },
+    {
+      "source": "user0037",
+      "target": "user0058",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0037",
+      "target": "user0063",
+      "type": "Owns"
+    },
+    {
+      "source": "user0037",
+      "target": "user0065",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0038",
+      "target": "computer0012",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0038",
+      "target": "computer0022",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0038",
+      "target": "group0005",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0038",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0038",
+      "target": "group0012",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0038",
+      "target": "group0031",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0038",
+      "target": "group0035",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0038",
+      "target": "user0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0038",
+      "target": "user0028",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0038",
+      "target": "user0035",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0038",
+      "target": "user0044",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0038",
+      "target": "user0060",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0039",
+      "target": "computer0019",
+      "type": "Owns"
+    },
+    {
+      "source": "user0039",
+      "target": "computer0023",
+      "type": "Owns"
+    },
+    {
+      "source": "user0039",
+      "target": "gpo0002",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0039",
+      "target": "gpo0003",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0039",
+      "target": "gpo0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0039",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0039",
+      "target": "group0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0039",
+      "target": "group0004",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0039",
+      "target": "group0017",
+      "type": "Owns"
+    },
+    {
+      "source": "user0039",
+      "target": "group0034",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0039",
+      "target": "group0036",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0039",
+      "target": "user0036",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0039",
+      "target": "user0049",
+      "type": "Owns"
+    },
+    {
+      "source": "user0040",
+      "target": "computer0015",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0040",
+      "target": "computer0017",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0040",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0040",
+      "target": "group0032",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0040",
+      "target": "ou0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0040",
+      "target": "user0015",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0041",
+      "target": "computer0002",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0041",
+      "target": "computer0014",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0041",
+      "target": "computer0018",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0041",
+      "target": "computer0021",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0041",
+      "target": "computer0024",
+      "type": "Owns"
+    },
+    {
+      "source": "user0041",
+      "target": "gpo0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0041",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0041",
+      "target": "group0001",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0041",
+      "target": "group0017",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0041",
+      "target": "user0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0041",
+      "target": "user0045",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0041",
+      "target": "user0048",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0041",
+      "target": "user0062",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0042",
+      "target": "computer0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0042",
+      "target": "gpo0003",
+      "type": "Owns"
+    },
+    {
+      "source": "user0042",
+      "target": "group0017",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0042",
+      "target": "group0022",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0042",
+      "target": "user0002",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0042",
+      "target": "user0012",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0043",
+      "target": "computer0012",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0043",
+      "target": "gpo0001",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0043",
+      "target": "gpo0004",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0043",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0043",
+      "target": "group0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0043",
+      "target": "group0032",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0043",
+      "target": "group0033",
+      "type": "Owns"
+    },
+    {
+      "source": "user0043",
+      "target": "user0011",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0043",
+      "target": "user0011",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0043",
+      "target": "user0032",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0043",
+      "target": "user0042",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0043",
+      "target": "user0060",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0043",
+      "target": "user0065",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0044",
+      "target": "computer0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0044",
+      "target": "computer0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0044",
+      "target": "computer0017",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0044",
+      "target": "computer0023",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0044",
+      "target": "group0004",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0044",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0044",
+      "target": "group0019",
+      "type": "Owns"
+    },
+    {
+      "source": "user0044",
+      "target": "group0036",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0044",
+      "target": "ou0006",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0044",
+      "target": "user0006",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0044",
+      "target": "user0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0045",
+      "target": "computer0012",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0045",
+      "target": "computer0013",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0045",
+      "target": "domain0000",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0045",
+      "target": "domain0000",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0045",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0045",
+      "target": "group0027",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0045",
+      "target": "group0031",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0045",
+      "target": "user0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0045",
+      "target": "user0023",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0045",
+      "target": "user0028",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0045",
+      "target": "user0042",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0045",
+      "target": "user0052",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0046",
+      "target": "computer0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0046",
+      "target": "group0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0046",
+      "target": "group0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0046",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0046",
+      "target": "group0015",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0046",
+      "target": "group0033",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0046",
+      "target": "group0033",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0046",
+      "target": "ou0002",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0046",
+      "target": "user0018",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0046",
+      "target": "user0047",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0046",
+      "target": "user0053",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0047",
+      "target": "computer0013",
+      "type": "CanRDP"
+    },
+    {
+      "source": "user0047",
+      "target": "gpo0003",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0047",
+      "target": "group0017",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0047",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0047",
+      "target": "group0029",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0047",
+      "target": "ou0005",
+      "type": "Owns"
+    },
+    {
+      "source": "user0047",
+      "target": "user0012",
+      "type": "Owns"
+    },
+    {
+      "source": "user0047",
+      "target": "user0017",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0047",
+      "target": "user0043",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0047",
+      "target": "user0052",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0048",
+      "target": "computer0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0048",
+      "target": "group0008",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0048",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0048",
+      "target": "group0021",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0048",
+      "target": "group0023",
+      "type": "Owns"
+    },
+    {
+      "source": "user0048",
+      "target": "group0030",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0048",
+      "target": "group0031",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0048",
+      "target": "group0033",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0048",
+      "target": "user0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0048",
+      "target": "user0017",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0048",
+      "target": "user0022",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0048",
+      "target": "user0031",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0048",
+      "target": "user0032",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0048",
+      "target": "user0040",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0048",
+      "target": "user0041",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0048",
+      "target": "user0056",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0049",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0049",
+      "target": "group0013",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0049",
+      "target": "group0025",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0049",
+      "target": "user0016",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0049",
+      "target": "user0020",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0049",
+      "target": "user0020",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0049",
+      "target": "user0052",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0050",
+      "target": "computer0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0050",
+      "target": "gpo0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0050",
+      "target": "gpo0001",
+      "type": "CanRDP"
+    },
+    {
+      "source": "user0050",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0050",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0050",
+      "target": "ou0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0050",
+      "target": "user0010",
+      "type": "Owns"
+    },
+    {
+      "source": "user0050",
+      "target": "user0027",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0050",
+      "target": "user0035",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0050",
+      "target": "user0040",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0050",
+      "target": "user0047",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0050",
+      "target": "user0059",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0051",
+      "target": "group0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0051",
+      "target": "group0011",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0051",
+      "target": "group0012",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0051",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0051",
+      "target": "group0016",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0051",
+      "target": "group0025",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0051",
+      "target": "group0028",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0051",
+      "target": "ou0007",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0051",
+      "target": "user0012",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0051",
+      "target": "user0012",
+      "type": "Owns"
+    },
+    {
+      "source": "user0051",
+      "target": "user0047",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0051",
+      "target": "user0049",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0052",
+      "target": "computer0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0052",
+      "target": "computer0007",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0052",
+      "target": "group0001",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0052",
+      "target": "group0016",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0052",
+      "target": "group0019",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0052",
+      "target": "group0034",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0052",
+      "target": "user0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0052",
+      "target": "user0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0052",
+      "target": "user0031",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0052",
+      "target": "user0056",
+      "type": "Owns"
+    },
+    {
+      "source": "user0052",
+      "target": "user0056",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0053",
+      "target": "computer0010",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0053",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0053",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0053",
+      "target": "group0015",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0053",
+      "target": "group0016",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0053",
+      "target": "group0019",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0053",
+      "target": "group0020",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0053",
+      "target": "group0027",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0053",
+      "target": "group0030",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0053",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0053",
+      "target": "user0005",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0053",
+      "target": "user0039",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0053",
+      "target": "user0051",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0053",
+      "target": "user0066",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0054",
+      "target": "computer0011",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0054",
+      "target": "group0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0054",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0054",
+      "target": "group0015",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0054",
+      "target": "group0019",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0054",
+      "target": "group0033",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0054",
+      "target": "group0035",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0054",
+      "target": "user0026",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0054",
+      "target": "user0040",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0054",
+      "target": "user0048",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0054",
+      "target": "user0052",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0055",
+      "target": "computer0013",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0055",
+      "target": "computer0025",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0055",
+      "target": "domain0000",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0055",
+      "target": "group0006",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0055",
+      "target": "group0016",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0055",
+      "target": "group0017",
+      "type": "Owns"
+    },
+    {
+      "source": "user0055",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0055",
+      "target": "user0030",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0055",
+      "target": "user0042",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0055",
+      "target": "user0062",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0056",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0056",
+      "target": "group0020",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0056",
+      "target": "group0034",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0056",
+      "target": "user0006",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0056",
+      "target": "user0011",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0056",
+      "target": "user0051",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0057",
+      "target": "computer0019",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0057",
+      "target": "computer0025",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0057",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0057",
+      "target": "group0016",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0057",
+      "target": "group0021",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0057",
+      "target": "group0028",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0057",
+      "target": "group0032",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0057",
+      "target": "group0032",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0057",
+      "target": "user0018",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0057",
+      "target": "user0021",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0057",
+      "target": "user0046",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0058",
+      "target": "computer0014",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0058",
+      "target": "domain0000",
+      "type": "Owns"
+    },
+    {
+      "source": "user0058",
+      "target": "group0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0058",
+      "target": "group0009",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0058",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0058",
+      "target": "group0027",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0058",
+      "target": "group0034",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0058",
+      "target": "user0012",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0058",
+      "target": "user0014",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0058",
+      "target": "user0025",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0058",
+      "target": "user0059",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0059",
+      "target": "computer0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0059",
+      "target": "computer0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0059",
+      "target": "computer0010",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0059",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0059",
+      "target": "group0028",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0059",
+      "target": "group0033",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0059",
+      "target": "group0033",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0059",
+      "target": "ou0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0059",
+      "target": "ou0005",
+      "type": "Owns"
+    },
+    {
+      "source": "user0059",
+      "target": "user0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0059",
+      "target": "user0009",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0059",
+      "target": "user0028",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0059",
+      "target": "user0029",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0059",
+      "target": "user0058",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0060",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0060",
+      "target": "group0012",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0060",
+      "target": "group0013",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0060",
+      "target": "group0013",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0060",
+      "target": "group0025",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0060",
+      "target": "group0029",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0060",
+      "target": "group0036",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0060",
+      "target": "user0014",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0060",
+      "target": "user0023",
+      "type": "Owns"
+    },
+    {
+      "source": "user0060",
+      "target": "user0039",
+      "type": "Owns"
+    },
+    {
+      "source": "user0060",
+      "target": "user0042",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0061",
+      "target": "computer0020",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0061",
+      "target": "computer0020",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0061",
+      "target": "group0003",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0061",
+      "target": "group0004",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0061",
+      "target": "group0025",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0061",
+      "target": "group0026",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0061",
+      "target": "group0027",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0061",
+      "target": "group0035",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0061",
+      "target": "user0030",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0061",
+      "target": "user0050",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0061",
+      "target": "user0051",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0061",
+      "target": "user0052",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0061",
+      "target": "user0065",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0062",
+      "target": "computer0000",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0062",
+      "target": "group0008",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0062",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0062",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0062",
+      "target": "group0035",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0062",
+      "target": "group0035",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0062",
+      "target": "ou0008",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0062",
+      "target": "user0058",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0062",
+      "target": "user0060",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0063",
+      "target": "computer0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0063",
+      "target": "computer0001",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0063",
+      "target": "computer0005",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0063",
+      "target": "computer0009",
+      "type": "Owns"
+    },
+    {
+      "source": "user0063",
+      "target": "computer0017",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0063",
+      "target": "gpo0001",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0063",
+      "target": "group0015",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0063",
+      "target": "group0016",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0063",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0063",
+      "target": "group0028",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0063",
+      "target": "user0035",
+      "type": "Owns"
+    },
+    {
+      "source": "user0063",
+      "target": "user0048",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0063",
+      "target": "user0059",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0063",
+      "target": "user0060",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0064",
+      "target": "computer0008",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0064",
+      "target": "computer0012",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0064",
+      "target": "group0004",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0064",
+      "target": "group0007",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0064",
+      "target": "group0024",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0064",
+      "target": "group0035",
+      "type": "AddMember"
+    },
+    {
+      "source": "user0064",
+      "target": "ou0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0064",
+      "target": "ou0006",
+      "type": "Owns"
+    },
+    {
+      "source": "user0064",
+      "target": "user0012",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0064",
+      "target": "user0012",
+      "type": "Owns"
+    },
+    {
+      "source": "user0064",
+      "target": "user0024",
+      "type": "Owns"
+    },
+    {
+      "source": "user0064",
+      "target": "user0029",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0064",
+      "target": "user0044",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0064",
+      "target": "user0063",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0064",
+      "target": "user0066",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0065",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0065",
+      "target": "group0016",
+      "type": "Owns"
+    },
+    {
+      "source": "user0065",
+      "target": "group0016",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0065",
+      "target": "group0017",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0065",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0065",
+      "target": "group0024",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0065",
+      "target": "group0028",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0065",
+      "target": "user0040",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0065",
+      "target": "user0043",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0066",
+      "target": "computer0003",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0066",
+      "target": "computer0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0066",
+      "target": "group0016",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0066",
+      "target": "group0021",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0066",
+      "target": "group0036",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0066",
+      "target": "user0001",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0066",
+      "target": "user0013",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0066",
+      "target": "user0030",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0066",
+      "target": "user0034",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0066",
+      "target": "user0037",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0066",
+      "target": "user0050",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0066",
+      "target": "user0059",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0066",
+      "target": "user0063",
+      "type": "WriteDacl"
+    }
+  ]
+}

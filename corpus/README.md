@@ -84,8 +84,11 @@ Each `<name>_seed<N>.manifest.json` contains:
 5. **Fingerprint uniqueness**: No two graphs have identical structural fingerprints
 
 The fingerprint table shows: node/edge counts, node-type mix, degree
-distribution, group nesting depth stats, and candidate paths found by
-the existing enumerator.
+distribution, group nesting depth stats, candidate paths found by
+the existing enumerator (`Paths`, capped at 250 with cutoff=6), and the true
+number of nodes reachable from owned nodes via unconstrained BFS closure (`ReachNodes`).
+Any planted chain requiring more than the default 6 hops includes a `needs_cutoff: <n>`
+field in its manifest.
 
 ## Determinism
 

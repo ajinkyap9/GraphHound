@@ -1,0 +1,168 @@
+{
+  "profile": "medium_deep_nesting",
+  "seed": 1,
+  "config": {
+    "description": "Medium org with very deep group nesting chains",
+    "node_count": 500,
+    "user_ratio": 0.4,
+    "group_ratio": 0.35,
+    "computer_ratio": 0.15,
+    "group_nesting_depth": 12,
+    "acl_edge_density": 0.008,
+    "session_density": 0.15,
+    "misconfiguration_rate": 0.12,
+    "tier0_targets": 3,
+    "owned_start_nodes": 4
+  },
+  "node_count": 500,
+  "edge_count": 1703,
+  "planted_chains": [
+    {
+      "label": "short_critical_genericall_dcsync",
+      "intended_class": "critical",
+      "node_ids": [
+        "user0034",
+        "user0021",
+        "domain0000"
+      ],
+      "edge_types": [
+        "GenericAll",
+        "DCSync"
+      ]
+    },
+    {
+      "label": "short_critical_writedacl_addmember",
+      "intended_class": "critical",
+      "node_ids": [
+        "user0195",
+        "group0111",
+        "group0000"
+      ],
+      "edge_types": [
+        "WriteDacl",
+        "AddMember"
+      ]
+    },
+    {
+      "label": "long_memberof_chain_to_tier0",
+      "intended_class": "critical",
+      "node_ids": [
+        "user0016",
+        "group0154",
+        "group0062",
+        "group0095",
+        "group0172",
+        "group0120",
+        "group0124",
+        "group0114",
+        "group0048",
+        "group0004",
+        "group0165",
+        "group0073",
+        "group0170",
+        "group0000"
+      ],
+      "edge_types": [
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf",
+        "MemberOf"
+      ],
+      "needs_cutoff": 13
+    },
+    {
+      "label": "noisy_but_exploitable",
+      "intended_class": "critical",
+      "node_ids": [
+        "user0034",
+        "computer0070",
+        "user0059",
+        "computer0011",
+        "domain0000"
+      ],
+      "edge_types": [
+        "CanRDP",
+        "HasSession",
+        "AdminTo",
+        "DCSync"
+      ]
+    },
+    {
+      "label": "decoy_chain_0",
+      "intended_class": "decoy",
+      "node_ids": [
+        "user0016",
+        "user0006",
+        "group0093",
+        "group0136",
+        "computer0071",
+        "group0035",
+        "gpo0006"
+      ],
+      "edge_types": [
+        "MemberOf",
+        "CanRDP",
+        "HasSession",
+        "MemberOf",
+        "MemberOf",
+        "CanRDP"
+      ]
+    },
+    {
+      "label": "decoy_chain_1",
+      "intended_class": "decoy",
+      "node_ids": [
+        "user0034",
+        "user0102",
+        "user0168",
+        "group0161",
+        "user0075",
+        "computer0017",
+        "user0116"
+      ],
+      "edge_types": [
+        "MemberOf",
+        "CanRDP",
+        "HasSession",
+        "MemberOf",
+        "MemberOf",
+        "CanRDP"
+      ]
+    },
+    {
+      "label": "chokepoint_chain_0",
+      "intended_class": "critical",
+      "node_ids": [
+        "user0145",
+        "group0158",
+        "group0000"
+      ],
+      "edge_types": [
+        "GenericWrite",
+        "WriteDacl"
+      ]
+    },
+    {
+      "label": "chokepoint_chain_1",
+      "intended_class": "medium",
+      "node_ids": [
+        "user0016",
+        "group0158",
+        "computer0000"
+      ],
+      "edge_types": [
+        "GenericAll",
+        "WriteDacl"
+      ]
+    }
+  ]
+}

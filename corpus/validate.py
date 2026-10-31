@@ -7,8 +7,15 @@ For every generated graph:
   (b) Assert counts match the config
   (c) Assert every planted chain exists edge-by-edge
   (d) Assert every critical chain's target is reachable from its start
-  (e) Print a structural fingerprint table
-  (f) Fail if any two graphs have near-identical fingerprints
+  (e) Print each planted chain's length in edges (flagging chains > 6 edges)
+  (f) Print a structural fingerprint table including:
+      - node/edge counts
+      - node/edge type distributions
+      - in-degree / out-degree statistics
+      - group nesting depth
+      - candidate paths found (capped by enumerator)
+      - true BFS closure of nodes reachable from owned nodes (no cutoff, no path cap)
+  (g) Fail if any two graphs have near-identical fingerprints
 
 Usage:
     python corpus/validate.py corpus/graphs/
@@ -19,31 +26,39 @@ from __future__ import annotations
 import argparse
 import collections
 import json
-import math
 import sys
 from pathlib import Path
+from typing import Any
 
 # Add project root to path so we can import the ingest module
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
+import networkx as nx
 from ad_attack_path_predictor.ingest import load_bloodhound_json, to_networkx
 from ad_attack_path_predictor.enumerate_paths import (
     enumerate_candidate_paths,
     resolve_start_nodes,
     resolve_target_nodes,
 )
+from ad_attack_path_predictor.schemas import AttackGraph
 
 
 # ---------------------------------------------------------------------------
-# Fingerprint dataclass (plain dict for simplicity)
+# Fingerprint computation
 # ---------------------------------------------------------------------------
 
-def compute_fingerprint(graph_path: Path, manifest: dict) -> dict:
-    """Load graph, run structural analysis, return fingerprint dict."""
-    # (a) Load with existing ingest code
-    attack_graph = load_bloodhound_json(str(graph_path))
-    nx_graph = to_networkx(attack_graph)
+def compute_fingerprint(
+    graph_path: Path,
+    manifest: dict[str, Any],
+    attack_graph: AttackGraph | None = None,
+    nx_graph: nx.MultiDiGraph | None = None,
+) -> dict[str, Any]:
+    """Compute structural metrics and reachable nodes for an attack graph."""
+    if attack_graph is None:
+        attack_graph = load_bloodhound_json(str(graph_path))
+    if nx_graph is None:
+        nx_graph = to_networkx(attack_graph)
 
     n_nodes = len(attack_graph.nodes)
     n_edges = len(attack_graph.edges)
@@ -66,31 +81,49 @@ def compute_fingerprint(graph_path: Path, manifest: dict) -> dict:
     mean_out = sum(out_degrees) / max(len(out_degrees), 1)
     max_out = max(out_degrees) if out_degrees else 0
 
-    # Group nesting depth via BFS on MemberOf edges
+    # Group nesting depth via BFS/DFS with memoization on MemberOf edges
     group_ids = {n.id for n in attack_graph.nodes if n.kind.value == "Group"}
     memberof_children: dict[str, list[str]] = collections.defaultdict(list)
     for edge in attack_graph.edges:
         if edge.type == "MemberOf" and edge.source in group_ids and edge.target in group_ids:
             memberof_children[edge.source].append(edge.target)
 
-    def _nesting_depth(gid: str, visited: set) -> int:
-        if gid in visited:
+    memo: dict[str, int] = {}
+
+    def _nesting_depth(gid: str, path_set: set[str]) -> int:
+        if gid in path_set:
             return 0
-        visited.add(gid)
-        if gid not in memberof_children:
-            return 0
-        return 1 + max((_nesting_depth(c, visited) for c in memberof_children[gid]), default=0)
+        if gid in memo:
+            return memo[gid]
+        path_set.add(gid)
+        res = 0
+        if gid in memberof_children:
+            res = 1 + max((_nesting_depth(c, path_set) for c in memberof_children[gid]), default=0)
+        path_set.remove(gid)
+        memo[gid] = res
+        return res
 
     depths = [_nesting_depth(g, set()) for g in group_ids]
     mean_depth = sum(depths) / max(len(depths), 1)
     max_depth = max(depths) if depths else 0
 
-    # Candidate paths via existing enumerator
+    # Candidate paths via existing enumerator (cutoff=6, capped at 250)
     starts = resolve_start_nodes(attack_graph)
     targets = resolve_target_nodes(attack_graph)
     candidate_paths = enumerate_candidate_paths(
         attack_graph, nx_graph, starts, targets, cutoff=6, max_paths=250
     )
+
+    # True BFS closure of reachable nodes from owned nodes (no cutoff, no path cap)
+    owned_starts = [node.id for node in attack_graph.nodes if node.owned]
+    if not owned_starts:
+        owned_starts = starts
+
+    reachable_from_owned: set[str] = set(owned_starts)
+    for s in owned_starts:
+        if s in nx_graph:
+            reachable_from_owned.update(nx.descendants(nx_graph, s))
+    reachable_nodes_count = len(reachable_from_owned)
 
     return {
         "file": graph_path.name,
@@ -107,6 +140,7 @@ def compute_fingerprint(graph_path: Path, manifest: dict) -> dict:
         "mean_group_nesting": round(mean_depth, 2),
         "max_group_nesting": max_depth,
         "candidate_paths_found": len(candidate_paths),
+        "reachable_nodes_count": reachable_nodes_count,
         "start_nodes": len(starts),
         "target_nodes": len(targets),
     }
@@ -116,14 +150,12 @@ def compute_fingerprint(graph_path: Path, manifest: dict) -> dict:
 # Validation checks
 # ---------------------------------------------------------------------------
 
-def check_counts(manifest: dict, fingerprint: dict) -> list[str]:
+def check_counts(manifest: dict[str, Any], fingerprint: dict[str, Any]) -> list[str]:
     """(b) Assert counts roughly match config."""
     errors = []
     cfg = manifest.get("config", {})
     expected = cfg.get("node_count", 0)
     actual = fingerprint["nodes"]
-    # Allow 15% tolerance (planted chains may add a few extra nodes
-    # and the ratio arithmetic uses floor)
     tolerance = 0.20
     if abs(actual - expected) / max(expected, 1) > tolerance:
         errors.append(
@@ -133,14 +165,13 @@ def check_counts(manifest: dict, fingerprint: dict) -> list[str]:
     return errors
 
 
-def check_planted_chains(graph_path: Path, manifest: dict) -> list[str]:
+def check_planted_chains(graph_path: Path, manifest: dict[str, Any]) -> list[str]:
     """(c) Assert every planted chain exists edge-by-edge in the graph."""
     errors = []
 
     with graph_path.open("r", encoding="utf-8") as fh:
         raw = json.load(fh)
 
-    # Build edge lookup: (source, target, type) -> True
     edge_set: set[tuple[str, str, str]] = set()
     for e in raw.get("edges", []):
         edge_set.add((e["source"], e["target"], e["type"]))
@@ -159,13 +190,9 @@ def check_planted_chains(graph_path: Path, manifest: dict) -> list[str]:
     return errors
 
 
-def check_critical_reachability(graph_path: Path, manifest: dict) -> list[str]:
+def check_critical_reachability(nx_graph: nx.MultiDiGraph, manifest: dict[str, Any]) -> list[str]:
     """(d) Assert every critical chain's target is reachable from its start."""
     errors = []
-    import networkx as nx
-
-    attack_graph = load_bloodhound_json(str(graph_path))
-    nx_graph = to_networkx(attack_graph)
 
     for chain in manifest.get("planted_chains", []):
         if chain.get("intended_class") != "critical":
@@ -185,12 +212,11 @@ def check_critical_reachability(graph_path: Path, manifest: dict) -> list[str]:
     return errors
 
 
-def check_fingerprint_uniqueness(fingerprints: list[dict]) -> list[str]:
-    """(f) Fail if any two graphs have near-identical fingerprints."""
+def check_fingerprint_uniqueness(fingerprints: list[dict[str, Any]]) -> list[str]:
+    """(g) Fail if any two graphs have near-identical fingerprints."""
     errors = []
 
-    def _signature(fp: dict) -> tuple:
-        """A tuple that captures the structural shape."""
+    def _signature(fp: dict[str, Any]) -> tuple:
         return (
             fp["nodes"],
             fp["edges"],
@@ -205,8 +231,6 @@ def check_fingerprint_uniqueness(fingerprints: list[dict]) -> list[str]:
         key = fp["file"]
         sig = _signature(fp)
         for other_key, other_sig in sigs.items():
-            # Check if node count, edge count, and max nesting are all identical
-            # AND edge type distribution is identical
             if sig == other_sig:
                 errors.append(
                     f"Near-identical fingerprints: {key} and {other_key}"
@@ -220,13 +244,12 @@ def check_fingerprint_uniqueness(fingerprints: list[dict]) -> list[str]:
 # Pretty printing
 # ---------------------------------------------------------------------------
 
-def print_fingerprint_table(fingerprints: list[dict]) -> None:
-    """Print a compact summary table."""
+def print_fingerprint_table(fingerprints: list[dict[str, Any]]) -> None:
+    """Print a compact summary table with reachable closure."""
     if not fingerprints:
         print("No fingerprints to display.")
         return
 
-    # Header
     cols = [
         ("Profile", 22),
         ("Seed", 5),
@@ -240,6 +263,7 @@ def print_fingerprint_table(fingerprints: list[dict]) -> None:
         ("AvgNest", 8),
         ("MaxNest", 8),
         ("Paths", 6),
+        ("ReachNodes", 10),
     ]
     header = " | ".join(name.ljust(width) for name, width in cols)
     sep = "-+-".join("-" * width for _, width in cols)
@@ -266,6 +290,7 @@ def print_fingerprint_table(fingerprints: list[dict]) -> None:
             f"{fp['mean_group_nesting']:.1f}".ljust(8),
             str(fp["max_group_nesting"]).ljust(8),
             str(fp["candidate_paths_found"]).ljust(6),
+            str(fp["reachable_nodes_count"]).ljust(10),
         ]
         print(" | ".join(row))
     print()
@@ -295,7 +320,6 @@ def main() -> int:
         print(f"ERROR: {graph_dir} is not a directory", file=sys.stderr)
         return 1
 
-    # Discover graph + manifest pairs
     graph_files = sorted(graph_dir.glob("*.json"))
     graph_files = [f for f in graph_files if ".manifest." not in f.name]
 
@@ -304,7 +328,7 @@ def main() -> int:
         return 1
 
     all_errors: list[str] = []
-    fingerprints: list[dict] = []
+    fingerprints: list[dict[str, Any]] = []
 
     for gf in graph_files:
         manifest_path = gf.with_suffix("").with_suffix(".manifest.json")
@@ -312,21 +336,36 @@ def main() -> int:
             manifest_path = Path(str(gf).replace(".json", ".manifest.json"))
         if not manifest_path.exists():
             all_errors.append(f"Missing manifest for {gf.name}")
+            print(f"Validating {gf.name}... FAIL (missing manifest)")
             continue
 
         with manifest_path.open("r", encoding="utf-8") as fh:
             manifest = json.load(fh)
 
-        print(f"Validating {gf.name}...", end=" ", flush=True)
+        print(f"Validating {gf.name}...", flush=True)
 
-        # (a) Load with ingest code (will raise on failure)
+        # Print planted chains and their lengths in edges, flagging any > 6 edges
+        planted_chains = manifest.get("planted_chains", [])
+        print(f"  Planted chains ({len(planted_chains)}):")
+        for chain in planted_chains:
+            length = len(chain.get("edge_types", []))
+            lbl = chain.get("label", "?")
+            iclass = chain.get("intended_class", "?")
+            if length > 6:
+                nc = chain.get("needs_cutoff", length)
+                print(f"    - {lbl} ({iclass}): {length} edges [FLAG: >6 edges, needs_cutoff={nc}]")
+            else:
+                print(f"    - {lbl} ({iclass}): {length} edges")
+
+        # (a) Load with ingest code
         try:
             attack_graph = load_bloodhound_json(str(gf))
+            nx_graph = to_networkx(attack_graph)
             if args.verbose:
-                print(f"[ingest OK: {len(attack_graph.nodes)} nodes, {len(attack_graph.edges)} edges]", end=" ")
+                print(f"  [ingest OK: {len(attack_graph.nodes)} nodes, {len(attack_graph.edges)} edges]")
         except Exception as exc:
             all_errors.append(f"{gf.name}: ingest failed: {exc}")
-            print("FAIL (ingest)")
+            print(f"  Status: FAIL (ingest: {exc})")
             continue
 
         # (b) Count check
@@ -338,22 +377,22 @@ def main() -> int:
         all_errors.extend(f"{gf.name}: {e}" for e in errs_c)
 
         # (d) Critical chain reachability
-        errs_d = check_critical_reachability(gf, manifest)
+        errs_d = check_critical_reachability(nx_graph, manifest)
         all_errors.extend(f"{gf.name}: {e}" for e in errs_d)
 
         local_errs = errs_b + errs_c + errs_d
         if local_errs:
-            print(f"FAIL ({len(local_errs)} errors)")
+            print(f"  Status: FAIL ({len(local_errs)} errors)")
         else:
-            print("OK")
+            print("  Status: OK")
 
         # (e) Fingerprint
-        fp = compute_fingerprint(gf, manifest)
+        fp = compute_fingerprint(gf, manifest, attack_graph=attack_graph, nx_graph=nx_graph)
         fingerprints.append(fp)
 
-    # (f) Uniqueness check
-    errs_f = check_fingerprint_uniqueness(fingerprints)
-    all_errors.extend(errs_f)
+    # (g) Uniqueness check
+    errs_g = check_fingerprint_uniqueness(fingerprints)
+    all_errors.extend(errs_g)
 
     # Print table
     print_fingerprint_table(fingerprints)

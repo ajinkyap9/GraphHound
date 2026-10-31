@@ -1,0 +1,1596 @@
+{
+  "nodes": [
+    {
+      "id": "computer0000",
+      "name": "DC01.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": true
+    },
+    {
+      "id": "computer0001",
+      "name": "COMP0001.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0002",
+      "name": "COMP0002.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0003",
+      "name": "COMP0003.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0004",
+      "name": "COMP0004.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0005",
+      "name": "COMP0005.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0006",
+      "name": "COMP0006.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0007",
+      "name": "COMP0007.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0008",
+      "name": "COMP0008.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0009",
+      "name": "COMP0009.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0010",
+      "name": "COMP0010.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0011",
+      "name": "COMP0011.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0012",
+      "name": "COMP0012.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0013",
+      "name": "COMP0013.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "computer0014",
+      "name": "COMP0014.corp.test",
+      "kind": "Computer",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "domain0000",
+      "name": "corp.test",
+      "kind": "Domain",
+      "owned": false,
+      "high_value": true
+    },
+    {
+      "id": "gpo0000",
+      "name": "GPO-0000",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0001",
+      "name": "GPO-0001",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0002",
+      "name": "GPO-0002",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0003",
+      "name": "GPO-0003",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "gpo0004",
+      "name": "GPO-0004",
+      "kind": "GPO",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0000",
+      "name": "DOMAIN ADMINS@corp.test",
+      "kind": "Group",
+      "owned": false,
+      "high_value": true
+    },
+    {
+      "id": "group0001",
+      "name": "DOMAIN CONTROLLERS@corp.test",
+      "kind": "Group",
+      "owned": false,
+      "high_value": true
+    },
+    {
+      "id": "group0002",
+      "name": "GRP-0002",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0003",
+      "name": "GRP-0003",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0004",
+      "name": "GRP-0004",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0005",
+      "name": "GRP-0005",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0006",
+      "name": "GRP-0006",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0007",
+      "name": "GRP-0007",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0008",
+      "name": "GRP-0008",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0009",
+      "name": "GRP-0009",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0010",
+      "name": "GRP-0010",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0011",
+      "name": "GRP-0011",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0012",
+      "name": "GRP-0012",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0013",
+      "name": "GRP-0013",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0014",
+      "name": "GRP-0014",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0015",
+      "name": "GRP-0015",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0016",
+      "name": "GRP-0016",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0017",
+      "name": "GRP-0017",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0018",
+      "name": "GRP-0018",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0019",
+      "name": "GRP-0019",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0020",
+      "name": "GRP-0020",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0021",
+      "name": "GRP-0021",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0022",
+      "name": "GRP-0022",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0023",
+      "name": "GRP-0023",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "group0024",
+      "name": "GRP-0024",
+      "kind": "Group",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0000",
+      "name": "OU-0000",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0001",
+      "name": "OU-0001",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0002",
+      "name": "OU-0002",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "ou0003",
+      "name": "OU-0003",
+      "kind": "OU",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0000",
+      "name": "user0000@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0001",
+      "name": "user0001@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0002",
+      "name": "user0002@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0003",
+      "name": "user0003@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0004",
+      "name": "user0004@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0005",
+      "name": "user0005@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0006",
+      "name": "user0006@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0007",
+      "name": "user0007@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0008",
+      "name": "user0008@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0009",
+      "name": "user0009@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0010",
+      "name": "user0010@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0011",
+      "name": "user0011@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0012",
+      "name": "user0012@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0013",
+      "name": "user0013@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0014",
+      "name": "user0014@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0015",
+      "name": "user0015@corp.test",
+      "kind": "User",
+      "owned": true,
+      "high_value": false
+    },
+    {
+      "id": "user0016",
+      "name": "user0016@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0017",
+      "name": "user0017@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0018",
+      "name": "user0018@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0019",
+      "name": "user0019@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0020",
+      "name": "user0020@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0021",
+      "name": "user0021@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0022",
+      "name": "user0022@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0023",
+      "name": "user0023@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0024",
+      "name": "user0024@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0025",
+      "name": "user0025@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0026",
+      "name": "user0026@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0027",
+      "name": "user0027@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0028",
+      "name": "user0028@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0029",
+      "name": "user0029@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0030",
+      "name": "user0030@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0031",
+      "name": "user0031@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0032",
+      "name": "user0032@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0033",
+      "name": "user0033@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0034",
+      "name": "user0034@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0035",
+      "name": "user0035@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0036",
+      "name": "user0036@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0037",
+      "name": "user0037@corp.test",
+      "kind": "User",
+      "owned": true,
+      "high_value": false
+    },
+    {
+      "id": "user0038",
+      "name": "user0038@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0039",
+      "name": "user0039@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0040",
+      "name": "user0040@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0041",
+      "name": "user0041@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0042",
+      "name": "user0042@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0043",
+      "name": "user0043@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0044",
+      "name": "user0044@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0045",
+      "name": "user0045@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0046",
+      "name": "user0046@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0047",
+      "name": "user0047@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0048",
+      "name": "user0048@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    },
+    {
+      "id": "user0049",
+      "name": "user0049@corp.test",
+      "kind": "User",
+      "owned": false,
+      "high_value": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "computer0000",
+      "target": "user0035",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0001",
+      "target": "domain0000",
+      "type": "DCSync"
+    },
+    {
+      "source": "computer0002",
+      "target": "computer0005",
+      "type": "Owns"
+    },
+    {
+      "source": "computer0002",
+      "target": "user0023",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0002",
+      "target": "user0049",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0003",
+      "target": "user0037",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0006",
+      "target": "user0041",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "computer0007",
+      "target": "user0025",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0010",
+      "target": "user0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0011",
+      "target": "group0015",
+      "type": "HasSession"
+    },
+    {
+      "source": "computer0013",
+      "target": "group0017",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "computer0013",
+      "target": "user0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "computer0014",
+      "target": "gpo0004",
+      "type": "GenericAll"
+    },
+    {
+      "source": "computer0014",
+      "target": "user0036",
+      "type": "HasSession"
+    },
+    {
+      "source": "gpo0000",
+      "target": "computer0007",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "gpo0000",
+      "target": "user0026",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0000",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0002",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0002",
+      "target": "user0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0003",
+      "target": "group0000",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0003",
+      "target": "group0005",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0004",
+      "target": "group0006",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0005",
+      "target": "group0006",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0005",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0006",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0007",
+      "target": "group0015",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0007",
+      "target": "user0011",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0008",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0011",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0011",
+      "target": "user0030",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0011",
+      "target": "user0039",
+      "type": "GenericAll"
+    },
+    {
+      "source": "group0012",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0013",
+      "target": "group0000",
+      "type": "AddMember"
+    },
+    {
+      "source": "group0013",
+      "target": "group0000",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0013",
+      "target": "group0015",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0013",
+      "target": "user0008",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "group0014",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0015",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0016",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0017",
+      "target": "group0005",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0018",
+      "target": "user0047",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "group0020",
+      "target": "computer0011",
+      "type": "CanRDP"
+    },
+    {
+      "source": "group0020",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0021",
+      "target": "ou0003",
+      "type": "CanRDP"
+    },
+    {
+      "source": "group0021",
+      "target": "user0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0022",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0023",
+      "target": "user0012",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "group0024",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "group0024",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "ou0003",
+      "target": "computer0004",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "ou0003",
+      "target": "group0002",
+      "type": "HasSession"
+    },
+    {
+      "source": "user0000",
+      "target": "group0004",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0000",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0000",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0000",
+      "target": "user0001",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0001",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0001",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0002",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0003",
+      "target": "group0015",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0003",
+      "target": "user0031",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0004",
+      "target": "group0007",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0004",
+      "target": "group0017",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0005",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0006",
+      "target": "group0015",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0006",
+      "target": "group0017",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0007",
+      "target": "group0004",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0007",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0008",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0009",
+      "target": "group0016",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0010",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0010",
+      "target": "group0023",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0010",
+      "target": "user0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0010",
+      "target": "user0008",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0011",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0011",
+      "target": "group0005",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0011",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0012",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0012",
+      "target": "group0009",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0012",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0012",
+      "target": "user0002",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0013",
+      "target": "group0008",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0014",
+      "target": "group0002",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0014",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0014",
+      "target": "group0023",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "computer0000",
+      "type": "CanRDP"
+    },
+    {
+      "source": "user0015",
+      "target": "group0003",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0015",
+      "target": "group0005",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0015",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0015",
+      "target": "user0041",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0016",
+      "target": "computer0008",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0016",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0016",
+      "target": "group0023",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0016",
+      "target": "user0034",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0017",
+      "target": "group0004",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0017",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0018",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0018",
+      "target": "user0020",
+      "type": "Owns"
+    },
+    {
+      "source": "user0019",
+      "target": "group0015",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0020",
+      "target": "group0008",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0021",
+      "target": "computer0001",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0021",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0021",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0021",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0022",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0022",
+      "target": "group0016",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0023",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0023",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0024",
+      "target": "computer0000",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0024",
+      "target": "group0007",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0024",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0024",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0025",
+      "target": "computer0007",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0025",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0025",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0025",
+      "target": "user0034",
+      "type": "WriteDacl"
+    },
+    {
+      "source": "user0026",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0026",
+      "target": "group0021",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0027",
+      "target": "group0005",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0027",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0027",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0028",
+      "target": "group0003",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0028",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0028",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0029",
+      "target": "group0006",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0029",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0029",
+      "target": "group0020",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0030",
+      "target": "group0003",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0030",
+      "target": "group0009",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0030",
+      "target": "user0019",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0031",
+      "target": "computer0002",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0031",
+      "target": "group0015",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0032",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0032",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0032",
+      "target": "group0015",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0033",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0034",
+      "target": "group0000",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0034",
+      "target": "group0011",
+      "type": "GenericWrite"
+    },
+    {
+      "source": "user0035",
+      "target": "computer0001",
+      "type": "AdminTo"
+    },
+    {
+      "source": "user0035",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0035",
+      "target": "group0024",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0035",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0036",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0036",
+      "target": "group0003",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0037",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0037",
+      "target": "group0013",
+      "type": "GenericAll"
+    },
+    {
+      "source": "user0037",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0037",
+      "target": "group0024",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0038",
+      "target": "group0018",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0038",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0039",
+      "target": "group0008",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0039",
+      "target": "group0017",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0040",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0040",
+      "target": "group0007",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0040",
+      "target": "group0009",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0041",
+      "target": "domain0000",
+      "type": "DCSync"
+    },
+    {
+      "source": "user0041",
+      "target": "group0002",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0042",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0043",
+      "target": "group0001",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0043",
+      "target": "group0006",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0043",
+      "target": "group0013",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0043",
+      "target": "user0040",
+      "type": "Owns"
+    },
+    {
+      "source": "user0044",
+      "target": "group0008",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0044",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0044",
+      "target": "group0024",
+      "type": "WriteOwner"
+    },
+    {
+      "source": "user0044",
+      "target": "user0045",
+      "type": "AllowedToDelegate"
+    },
+    {
+      "source": "user0045",
+      "target": "group0022",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0046",
+      "target": "group0010",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0047",
+      "target": "group0004",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0047",
+      "target": "group0011",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0048",
+      "target": "group0012",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0048",
+      "target": "group0014",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0049",
+      "target": "group0012",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0049",
+      "target": "group0019",
+      "type": "MemberOf"
+    },
+    {
+      "source": "user0049",
+      "target": "group0020",
+      "type": "MemberOf"
+    }
+  ]
+}

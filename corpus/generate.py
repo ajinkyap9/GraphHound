@@ -363,12 +363,16 @@ class GraphGenerator:
         for i in range(len(chain_edges)):
             self._add_edge(chain_nodes[i], chain_nodes[i + 1], chain_edges[i])
 
-        self.planted_chains.append({
+        chain_entry: dict[str, Any] = {
             "label": label,
             "intended_class": intended_class,
             "node_ids": chain_nodes,
             "edge_types": chain_edges,
-        })
+        }
+        if len(chain_edges) > 6:
+            chain_entry["needs_cutoff"] = len(chain_edges)
+
+        self.planted_chains.append(chain_entry)
 
     def _plant_short_critical(self) -> None:
         """Plant 2 short critical chains."""
@@ -400,7 +404,7 @@ class GraphGenerator:
         """Plant a long chain of mostly MemberOf edges reaching Tier-0."""
         start = self._pick_owned()
         depth = min(self.cfg["group_nesting_depth"], len(self.groups) - 3)
-        depth = max(depth, 3)
+        depth = max(depth, 1)
 
         pool = [g for g in self.groups[2:] if g != start]
         self.rng.shuffle(pool)
